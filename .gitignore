@@ -1,0 +1,12 @@
+# python
+__pycache__/
+*.pyc
+
+# transformer training scratch (regenerable; large)
+model_trained/_tf_out/
+
+# os
+.DS_Store
+
+# excel lock files
+~$*

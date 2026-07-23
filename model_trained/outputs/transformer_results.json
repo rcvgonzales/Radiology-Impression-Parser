@@ -1,0 +1,21 @@
+{
+  "model_name": "indobert-base-p1",
+  "accuracy": 0.992,
+  "precision": 1.0,
+  "recall": 0.981,
+  "f1": 0.99,
+  "ood_acc": 0.9,
+  "ood_misses": [
+    {
+      "text": "Ginjal kanan dan kiri ukuran serta echotextur normal.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Efusi pleura (-).",
+      "gold": "normal",
+      "pred": "abnormal"
+    }
+  ],
+  "epochs": 5
+}

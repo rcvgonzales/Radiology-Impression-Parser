@@ -1,0 +1,680 @@
+client,split,text,rad_label,pred,correct
+01,train,Hepar dalam batas normal. pulmo tidak tampak kelainan. gallbladder unremarkable.,normal,normal,True
+01,train,Normal study.,normal,normal,True
+01,test,Sinus costophrenicus tajam. ginjal dalam batas normal. tidak tampak kardiomegali.,normal,normal,True
+01,train,"Cor tidak membesar, pleura normal, bronchopneumonia, hydronephrosis.",abnormal,abnormal,True
+01,dev,USG: sinus costophrenicus tajam. pulmo dalam batas normal.,normal,normal,True
+01,test,USG: tidak tampak kardiomegali. pulmo dalam batas normal. ginjal kanan dan kiri normal.,normal,normal,True
+01,dev,Foto thorax: tidak tampak kelainan.,normal,normal,True
+01,test,Hasil: efusi pleura. cor tidak membesar. ginjal dalam batas normal. no hepatomegaly Korelasi klinis dianjurkan.,abnormal,abnormal,True
+01,train,"No hepatomegaly, ginjal dalam batas normal, gallbladder unremarkable, cor tidak membesar.",normal,normal,True
+01,train,Hepar dalam batas normal; tidak tampak infiltrat; ginjal dalam batas normal.,normal,normal,True
+01,dev,Hasil: vesica fellea tidak tampak kelainan. ginjal kanan dan kiri normal.,normal,normal,True
+01,dev,Foto thorax: vesica fellea tidak tampak kelainan; hepar tidak membesar; pleural effusion bilateral Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+01,train,"Hasil: hepar dalam batas normal, pulmo dalam batas normal, kardiomegali dengan CTR meningkat, sinus costophrenicus tajam.",abnormal,abnormal,True
+01,train,Pleura normal; vesica fellea tidak tampak kelainan; perlemakan hati.,abnormal,abnormal,True
+01,dev,Foto thorax: tidak tampak kelainan.,normal,normal,True
+01,train,Impression: cor normal. liver size normal.,normal,normal,True
+01,train,"CTR normal, ginjal dalam batas normal, hepar tidak membesar, lungs clear.",normal,normal,True
+01,test,No nephrolithiasis. gallbladder unremarkable. pleura normal.,normal,normal,True
+01,train,Foto thorax: liver unremarkable. vesica fellea normal. pleura normal. CTR normal.,normal,normal,True
+01,train,Kesan: hepar dalam batas normal. pleura normal. no nephrolithiasis. CTR normal.,normal,normal,True
+01,dev,"USG: cardiomegaly, no active lung lesion, hepar tidak membesar.",abnormal,abnormal,True
+01,dev,"Impression: gallbladder unremarkable, no nephrolithiasis, pulmo tidak tampak kelainan.",normal,normal,True
+01,train,"Hasil: lungs clear, no nephrolithiasis, tidak tampak kardiomegali.",normal,normal,True
+01,train,Hasil: tidak tampak kelainan.,normal,normal,True
+01,test,"No pleural effusion, pulmo tidak tampak kelainan, tidak tampak batu empedu, liver unremarkable.",normal,normal,True
+01,test,"Foto thorax: vesica fellea tidak tampak kelainan, tidak tampak kardiomegali, ginjal dalam batas normal, pleura normal.",normal,normal,True
+01,dev,Kesan: tidak tampak infiltrat. no pleural effusion. vesica fellea normal.,normal,normal,True
+01,test,"Kesan: tidak tampak kardiomegali, no nephrolithiasis, tidak tampak infiltrat.",normal,normal,True
+01,test,"Foto thorax: pleural effusion bilateral, ginjal dalam batas normal, hepar dalam batas normal, no active lung lesion Korelasi klinis dianjurkan.",abnormal,abnormal,True
+01,dev,Hasil: cor tidak membesar. cholelithiasis. tidak tampak infiltrat. no hepatomegaly.,abnormal,abnormal,True
+01,dev,"Pleura normal, tidak tampak infiltrat.",normal,normal,True
+01,train,"Kesan: both kidneys normal, sinus costophrenicus tajam, heart size normal, liver size normal.",normal,normal,True
+01,test,Vesica fellea tidak tampak kelainan. no pleural effusion. nephrolithiasis.,abnormal,abnormal,True
+02,train,Impression: nephrolithiasis. vesica fellea tidak tampak kelainan. lungs clear. hepar normal Korelasi klinis dianjurkan.,abnormal,abnormal,True
+02,train,Impression: tidak tampak kelainan.,normal,normal,True
+02,train,"USG: both kidneys normal, heart size normal, no pleural effusion, no active lung lesion.",normal,normal,True
+02,test,Kesan: sinus costophrenicus tajam; cor normal.,normal,normal,True
+02,train,Hasil: cholelithiasis. liver unremarkable. no active lung lesion.,abnormal,abnormal,True
+02,train,"Hasil: hepar tidak membesar, vesica fellea normal, efusi pleura.",abnormal,abnormal,True
+02,dev,Impression: hepar normal. heart size normal. no pleural effusion.,normal,normal,True
+02,train,Kesan: dalam batas normal.,normal,normal,True
+02,train,No active lung lesion; ginjal kanan dan kiri normal; no hepatomegaly; batu empedu multiple.,abnormal,abnormal,True
+02,dev,Liver size normal; no nephrolithiasis.,normal,normal,True
+02,train,Foto thorax: hepar tidak membesar. tidak tampak batu empedu. both kidneys normal.,normal,normal,True
+02,train,Pleura normal; hydronephrosis; fibrosis paru; liver unremarkable Korelasi klinis dianjurkan.,abnormal,abnormal,True
+02,train,"Heart size normal, hepar normal.",normal,normal,True
+02,train,Foto thorax: cor tidak membesar. sinus costophrenicus tajam. cholelithiasis.,abnormal,abnormal,True
+02,train,Impression: cardiomegaly. vesica fellea tidak tampak kelainan Suggest clinical correlation.,abnormal,abnormal,True
+02,train,"Both kidneys normal, cor normal.",normal,normal,True
+02,dev,"USG: hepar dalam batas normal, vesica fellea tidak tampak kelainan, pleura normal.",normal,normal,True
+02,dev,Hepar dalam batas normal. kolelitiasis. fibrosis paru Korelasi klinis dianjurkan.,abnormal,abnormal,True
+02,train,Impression: tidak tampak kelainan.,normal,normal,True
+02,dev,Foto thorax: sinus costophrenicus tajam. heart size normal.,normal,normal,True
+02,dev,Kesan: efusi pleura minimal kanan; renal cyst; liver size normal; heart size normal Saran USG ulang.,abnormal,abnormal,True
+02,train,Kesan: cor tidak membesar. vesica fellea tidak tampak kelainan.,normal,normal,True
+02,train,No active lung lesion; tidak tampak batu empedu.,normal,normal,True
+02,train,Kesan: tidak tampak kardiomegali; tidak tampak infiltrat; ginjal dalam batas normal.,normal,normal,True
+02,dev,"Hasil: no hepatomegaly, tidak tampak kardiomegali, vesica fellea tidak tampak kelainan, no pleural effusion.",normal,normal,True
+02,train,Tidak tampak infiltrat. sinus costophrenicus tajam. cor normal.,normal,normal,True
+02,dev,"Impression: pleura normal, vesica fellea normal, CTR normal, hepatomegali.",abnormal,abnormal,True
+02,train,Impression: sinus costophrenicus tajam; fibrosis paru Saran USG ulang.,abnormal,abnormal,True
+02,test,Foto thorax: CTR normal. vesica fellea tidak tampak kelainan. liver size normal.,normal,normal,True
+02,test,Foto thorax: ginjal kanan dan kiri normal. tidak tampak batu empedu. no pleural effusion. hepar dalam batas normal.,normal,normal,True
+02,train,No hepatomegaly; pulmo tidak tampak kelainan; pleura normal; kardiomegali.,abnormal,abnormal,True
+02,train,"Foto thorax: hepar tidak membesar, batu ginjal kiri.",abnormal,abnormal,True
+02,test,"Impression: cor tidak membesar, no active lung lesion, ginjal normal bilateral, sinus costophrenicus tajam.",normal,normal,True
+02,train,Kesan: hepar tidak membesar. sinus costophrenicus tajam. both kidneys normal.,normal,normal,True
+02,train,Vesica fellea tidak tampak kelainan; efusi pleura.,abnormal,abnormal,True
+02,train,USG: ginjal normal bilateral; liver unremarkable; vesica fellea normal.,normal,normal,True
+02,train,"Hasil: hepar dalam batas normal, tidak tampak infiltrat.",normal,normal,True
+02,train,No hepatomegaly; TB lesion suspek.,abnormal,abnormal,True
+02,train,USG: tidak tampak kelainan.,normal,normal,True
+02,train,Sinus costophrenicus tajam; cor normal.,normal,normal,True
+02,train,Normal study.,normal,normal,True
+02,train,Hepar normal; lungs clear.,normal,normal,True
+02,train,Kesan: dalam batas normal.,normal,normal,True
+02,train,USG: gallbladder unremarkable; hepar dalam batas normal.,normal,normal,True
+02,train,Kesan: normal study.,normal,normal,True
+02,test,Impression: vesica fellea normal. lungs clear. pleura normal.,normal,normal,True
+02,train,USG: ginjal dalam batas normal. cardiomegaly dengan CTR 0.58.,abnormal,abnormal,True
+02,train,Tidak tampak batu empedu. cor tidak membesar. lungs clear.,normal,normal,True
+02,train,Foto thorax: kardiomegali; vesica fellea tidak tampak kelainan; no pleural effusion.,abnormal,abnormal,True
+02,train,"Kesan: no pleural effusion, both kidneys normal, no active lung lesion, CTR normal.",normal,normal,True
+02,train,"Liver unremarkable, kardiomegali Korelasi klinis dianjurkan.",abnormal,abnormal,True
+02,dev,Foto thorax: efusi pleura. no nephrolithiasis. heart size normal.,abnormal,abnormal,True
+02,train,Kesan: pleura normal. heart size normal. ginjal normal bilateral.,normal,normal,True
+02,train,Foto thorax: CTR normal. sinus costophrenicus tajam. ginjal kanan dan kiri normal.,normal,normal,True
+02,train,Kesan: tidak tampak batu empedu. tidak tampak kardiomegali. no active lung lesion.,normal,normal,True
+02,train,Tidak tampak kelainan.,normal,normal,True
+02,train,Normal study.,normal,normal,True
+02,train,Impression: ginjal kanan dan kiri normal; pulmo dalam batas normal; cardiomegaly; hepar membesar.,abnormal,abnormal,True
+02,test,"Foto thorax: pleura normal, vesica fellea tidak tampak kelainan, liver unremarkable.",normal,normal,True
+02,train,Impression: sinus costophrenicus tajam; gallbladder unremarkable; cardiomegaly dengan CTR 0.58 Saran USG ulang.,abnormal,abnormal,True
+02,train,No nephrolithiasis; tidak tampak kardiomegali; liver size normal.,normal,normal,True
+02,dev,Impression: hepar dalam batas normal. infiltrat perihiler Saran USG ulang.,abnormal,abnormal,True
+02,test,"USG: vesica fellea normal, ginjal dalam batas normal, hepar dalam batas normal.",normal,normal,True
+02,test,Cor tidak membesar; ginjal normal bilateral; lungs clear.,normal,normal,True
+02,train,USG: tidak tampak kelainan.,normal,normal,True
+02,dev,Foto thorax: penebalan pleura. liver size normal. lungs clear.,abnormal,abnormal,True
+02,dev,Fatty liver grade II; tidak tampak infiltrat; ginjal dalam batas normal Suggest clinical correlation.,abnormal,abnormal,True
+02,test,Foto thorax: liver unremarkable. vesica fellea normal. cor tidak membesar. no nephrolithiasis.,normal,normal,True
+02,train,Tidak tampak kelainan.,normal,normal,True
+02,dev,"USG: tidak tampak kardiomegali, hidronefrosis ringan, tidak tampak infiltrat, sinus costophrenicus tajam.",abnormal,abnormal,True
+02,train,USG: cor normal. tidak tampak infiltrat. gallbladder unremarkable.,normal,normal,True
+02,dev,Foto thorax: tidak tampak kelainan.,normal,normal,True
+02,train,Kesan: gallbladder unremarkable; ginjal kanan dan kiri normal; pulmo tidak tampak kelainan.,normal,normal,True
+02,train,Foto thorax: no pleural effusion. pulmo tidak tampak kelainan.,normal,normal,True
+02,dev,Hasil: normal study.,normal,normal,True
+02,train,Foto thorax: both kidneys normal; hepar tidak membesar.,normal,normal,True
+02,train,"Batu empedu multiple, pleura normal.",abnormal,abnormal,True
+02,test,Foto thorax: ginjal dalam batas normal. pulmo tidak tampak kelainan. kardiomegali dengan CTR meningkat.,abnormal,abnormal,True
+02,test,USG: pulmo dalam batas normal. pleura normal. heart size normal.,normal,normal,True
+02,test,Pleura normal; ginjal normal bilateral.,normal,normal,True
+02,train,"Impression: kista ginjal kanan, cor normal.",abnormal,abnormal,True
+02,dev,Hasil: hepar normal. no active lung lesion. kolelitiasis. sinus costophrenicus tajam.,abnormal,abnormal,True
+02,dev,"Hepar dalam batas normal, TB lesion suspek, no nephrolithiasis Suggest clinical correlation.",abnormal,abnormal,True
+02,test,"No pleural effusion, liver unremarkable, vesica fellea tidak tampak kelainan.",normal,normal,True
+02,train,USG: no pleural effusion. pulmo tidak tampak kelainan. kolelitiasis soliter.,abnormal,abnormal,True
+02,train,Dalam batas normal.,normal,normal,True
+02,train,"Impression: CTR normal, lungs clear, ginjal normal bilateral, no pleural effusion.",normal,normal,True
+02,dev,USG: bronchopneumonia; tidak tampak kardiomegali; vesica fellea tidak tampak kelainan; sinus costophrenicus tajam.,abnormal,abnormal,True
+02,train,"Hasil: CTR normal, tidak tampak batu empedu, no nephrolithiasis, pulmo dalam batas normal.",normal,normal,True
+02,train,"Efusi pleura minimal kanan, cor tidak membesar, tidak tampak batu empedu, pulmo dalam batas normal Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+02,test,Ginjal dalam batas normal. hepatomegaly. cholecystitis Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+02,train,"Kesan: no hepatomegaly, tidak tampak kardiomegali, no pleural effusion, pulmo dalam batas normal.",normal,normal,True
+02,test,"Kesan: no nephrolithiasis, vesica fellea tidak tampak kelainan, sinus costophrenicus tajam, lungs clear.",normal,normal,True
+02,train,Dalam batas normal.,normal,normal,True
+02,test,Impression: sinus costophrenicus tajam; batu ginjal kiri; pulmo dalam batas normal; tidak tampak batu empedu.,abnormal,abnormal,True
+02,train,"Kesan: tidak tampak infiltrat, liver size normal, penebalan pleura, ginjal normal bilateral.",abnormal,abnormal,True
+02,train,CTR normal. tidak tampak infiltrat.,normal,normal,True
+02,dev,Hasil: normal study.,normal,normal,True
+02,train,USG: tidak tampak batu empedu; pulmo tidak tampak kelainan; no hepatomegaly.,normal,normal,True
+02,train,Cholelithiasis; cor membesar; no hepatomegaly.,abnormal,abnormal,True
+02,train,"USG: tidak tampak infiltrat, cholecystitis, liver size normal.",abnormal,abnormal,True
+02,train,Dalam batas normal.,normal,normal,True
+02,test,Foto thorax: pleura normal. no nephrolithiasis. liver size normal.,normal,normal,True
+02,test,Hepar dalam batas normal. no pleural effusion.,normal,normal,True
+02,dev,"Infiltrat perihiler, vesica fellea tidak tampak kelainan Korelasi klinis dianjurkan.",abnormal,abnormal,True
+02,train,No active lung lesion. cholecystitis.,abnormal,abnormal,True
+02,train,Impression: vesica fellea normal. efusi pleura. hepar normal.,abnormal,abnormal,True
+02,train,"Liver unremarkable, tidak tampak batu empedu, tidak tampak infiltrat.",normal,normal,True
+02,train,Impression: liver unremarkable. gallbladder unremarkable. no nephrolithiasis.,normal,normal,True
+02,train,"Impression: gallbladder unremarkable, ginjal normal bilateral, tidak tampak infiltrat.",normal,normal,True
+02,test,No active lung lesion; pleura normal; hepar tidak membesar.,normal,normal,True
+02,train,"Kesan: hepar normal, tidak tampak infiltrat, efusi pleura.",abnormal,abnormal,True
+02,train,Normal study.,normal,normal,True
+02,dev,"Impression: liver size normal, tidak tampak batu empedu.",normal,normal,True
+02,train,"Kesan: pulmo dalam batas normal, batu ginjal kiri Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+02,dev,"Hasil: vesica fellea tidak tampak kelainan, infiltrat pada lobus kanan, ginjal kanan dan kiri normal, cor tidak membesar.",abnormal,abnormal,True
+02,train,"Hasil: ginjal normal bilateral, gallbladder unremarkable.",normal,normal,True
+02,train,Foto thorax: CTR normal; tidak tampak batu empedu; hepar dalam batas normal.,normal,normal,True
+02,train,Tidak tampak kelainan.,normal,normal,True
+02,dev,Kesan: cholecystitis. liver unremarkable.,abnormal,abnormal,True
+02,dev,Foto thorax: normal study.,normal,normal,True
+02,test,Impression: sinus costophrenicus tajam; no active lung lesion; ginjal kanan dan kiri normal; hepar membesar.,abnormal,abnormal,True
+02,train,Hasil: no active lung lesion; CTR normal; hepar membesar.,abnormal,abnormal,True
+02,train,Hasil: pulmo dalam batas normal. ginjal dalam batas normal. gallbladder unremarkable. no pleural effusion.,normal,normal,True
+02,train,Foto thorax: hidronefrosis ringan. heart size normal. pulmo tidak tampak kelainan. pleura normal.,abnormal,abnormal,True
+02,dev,Penebalan pleura; tidak tampak kardiomegali; vesica fellea normal.,abnormal,abnormal,True
+02,train,Impression: no hepatomegaly. batu empedu multiple Saran USG ulang.,abnormal,abnormal,True
+02,test,Liver size normal; pulmo dalam batas normal.,normal,normal,True
+02,train,"Foto thorax: hepatomegali, ginjal dalam batas normal.",abnormal,abnormal,True
+03,train,USG: tidak tampak kelainan.,normal,normal,True
+03,test,Impression: normal study.,normal,normal,True
+03,train,"Hasil: tidak tampak batu empedu, liver unremarkable.",normal,normal,True
+03,dev,"Tidak tampak kardiomegali, tidak tampak batu empedu.",normal,normal,True
+03,dev,No hepatomegaly. batu ginjal kiri. pulmo dalam batas normal. vesica fellea normal Korelasi klinis dianjurkan.,abnormal,abnormal,True
+03,test,Pleura normal; hepar normal; batu empedu multiple; fibrosis paru.,abnormal,abnormal,True
+03,train,USG: cor tidak membesar. no active lung lesion.,normal,normal,True
+03,train,Foto thorax: ginjal kanan dan kiri normal; pulmo dalam batas normal; hepar dalam batas normal.,normal,normal,True
+03,train,Foto thorax: pleura normal; hepar tidak membesar; CTR normal.,normal,normal,True
+03,train,"Kolelitiasis soliter, CTR normal.",abnormal,abnormal,True
+03,train,Dalam batas normal.,normal,normal,True
+03,train,USG: tidak tampak kelainan.,normal,normal,True
+03,dev,Impression: no active lung lesion; cor tidak membesar; liver size normal.,normal,normal,True
+03,test,Kesan: no pleural effusion. gallbladder unremarkable. liver size normal. CTR normal.,normal,normal,True
+03,dev,Hasil: normal study.,normal,normal,True
+03,train,USG: tidak tampak batu empedu. hepar dalam batas normal. ginjal kanan dan kiri normal. CTR normal.,normal,normal,True
+03,train,"Cor tidak membesar, kolelitiasis soliter, no pleural effusion.",abnormal,abnormal,True
+03,dev,"Kesan: infiltrat perihiler, no pleural effusion, CTR normal.",abnormal,abnormal,True
+03,dev,Pulmo dalam batas normal. gallstones.,abnormal,abnormal,True
+03,dev,Foto thorax: tidak tampak kardiomegali; no hepatomegaly.,normal,normal,True
+03,train,Bronchopneumonia; no pleural effusion; vesica fellea tidak tampak kelainan Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+03,dev,"USG: hepar tidak membesar, heart size normal, vesica fellea normal.",normal,normal,True
+03,train,Impression: tidak tampak kardiomegali; hepar normal; no pleural effusion.,normal,normal,True
+04,train,Hasil: vesica fellea tidak tampak kelainan. hepar tidak membesar. sinus costophrenicus tajam.,normal,normal,True
+04,dev,Hasil: normal study.,normal,normal,True
+04,train,Gallbladder unremarkable; tidak tampak kardiomegali; hepatomegaly.,abnormal,abnormal,True
+04,train,Pulmo tidak tampak kelainan; ginjal kanan dan kiri normal.,normal,normal,True
+04,train,"Hasil: hepar tidak membesar, ginjal normal bilateral, cor tidak membesar.",normal,normal,True
+04,test,Pulmo tidak tampak kelainan. gallbladder unremarkable. hepar tidak membesar.,normal,normal,True
+04,dev,Liver unremarkable; no nephrolithiasis; pulmo tidak tampak kelainan.,normal,normal,True
+04,test,USG: lungs clear. sinus costophrenicus tajam.,normal,normal,True
+04,train,"USG: vesica fellea tidak tampak kelainan, ginjal dalam batas normal.",normal,normal,True
+04,test,"Lungs clear, vesica fellea normal, liver unremarkable, both kidneys normal.",normal,normal,True
+04,test,Hasil: ginjal dalam batas normal. pulmo dalam batas normal. tidak tampak batu empedu. efusi pleura.,abnormal,abnormal,True
+04,train,Tidak tampak kelainan.,normal,normal,True
+04,train,"Foto thorax: no pleural effusion, tidak tampak infiltrat, ginjal kanan dan kiri normal.",normal,normal,True
+04,test,Hasil: kista ginjal kanan; vesica fellea normal.,abnormal,abnormal,True
+04,test,Foto thorax: no active lung lesion. no hepatomegaly. tidak tampak batu empedu.,normal,normal,True
+04,train,"Sinus costophrenicus tajam, tidak tampak batu empedu, ginjal kanan dan kiri normal.",normal,normal,True
+04,dev,Impression: pneumonia; penebalan pleura; no hepatomegaly.,abnormal,abnormal,True
+04,train,"Foto thorax: no hepatomegaly, ginjal dalam batas normal, cor normal, efusi pleura minimal kanan.",abnormal,abnormal,True
+04,train,Hasil: pulmo dalam batas normal; pleura normal; enlarged cardiac silhouette; ginjal normal bilateral.,abnormal,abnormal,True
+04,train,Foto thorax: pleura normal; hepatomegaly Saran USG ulang.,abnormal,abnormal,True
+04,train,USG: ginjal normal bilateral; pulmo tidak tampak kelainan; vesica fellea normal.,normal,normal,True
+04,train,Dalam batas normal.,normal,normal,True
+04,test,Sinus costophrenicus tajam; hepar tidak membesar; cardiomegaly dengan CTR 0.58.,abnormal,abnormal,True
+04,test,Hasil: vesica fellea normal; ginjal dalam batas normal; tidak tampak kardiomegali.,normal,normal,True
+04,test,Foto thorax: hepar tidak membesar; ginjal kanan dan kiri normal; sinus costophrenicus tajam.,normal,normal,True
+04,train,Kesan: tidak tampak batu empedu. lungs clear. hepar normal. no pleural effusion.,normal,normal,True
+04,dev,"USG: tidak tampak kardiomegali, penebalan pleura, vesica fellea tidak tampak kelainan.",abnormal,abnormal,True
+05,train,Kesan: hepar normal. no active lung lesion. no pleural effusion. tidak tampak kardiomegali.,normal,normal,True
+05,test,USG: gallbladder unremarkable; hepatomegaly; no pleural effusion; lungs clear Saran USG ulang.,abnormal,abnormal,True
+05,test,Hepar dalam batas normal. ginjal dalam batas normal. vesica fellea normal.,normal,normal,True
+05,train,USG: tidak tampak batu empedu. cor tidak membesar. liver size normal.,normal,normal,True
+05,train,"Fibrosis paru, no nephrolithiasis, cor tidak membesar Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+05,dev,Cor tidak membesar; hepar tidak membesar; pulmo dalam batas normal.,normal,normal,True
+05,train,Impression: no nephrolithiasis. vesica fellea tidak tampak kelainan. cardiomegaly dengan CTR 0.58. liver unremarkable Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+05,dev,Foto thorax: normal study.,normal,normal,True
+05,train,Kesan: gallstones; ginjal dalam batas normal; no pleural effusion.,abnormal,abnormal,True
+05,train,Impression: tidak tampak infiltrat; pleural effusion bilateral Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+05,test,Impression: fatty liver grade II; tidak tampak batu empedu; penebalan pleura Korelasi klinis dianjurkan.,abnormal,abnormal,True
+05,train,Hasil: tidak tampak kelainan.,normal,normal,True
+05,dev,Liver unremarkable; tidak tampak infiltrat; no pleural effusion.,normal,normal,True
+05,test,Impression: cor normal; no pleural effusion.,normal,normal,True
+05,train,Kesan: both kidneys normal; gallbladder unremarkable; cor membesar; hepar dalam batas normal.,abnormal,abnormal,True
+05,train,USG: vesica fellea tidak tampak kelainan; pulmo tidak tampak kelainan.,normal,normal,True
+05,test,Pleura normal; ginjal normal bilateral; batu empedu multiple.,abnormal,abnormal,True
+05,train,Hasil: heart size normal. tidak tampak batu empedu. hepar normal.,normal,normal,True
+05,train,Dalam batas normal.,normal,normal,True
+05,train,"Hasil: cardiomegaly dengan CTR 0.58, ginjal normal bilateral, tidak tampak batu empedu Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+05,train,Impression: cardiomegaly. liver size normal. sinus costophrenicus tajam. ginjal dalam batas normal Saran USG ulang.,abnormal,abnormal,True
+05,train,Liver size normal; pleura normal; vesica fellea normal; no nephrolithiasis.,normal,normal,True
+05,train,Foto thorax: hydronephrosis. sinus costophrenicus tajam. lungs clear. tidak tampak kardiomegali.,abnormal,abnormal,True
+05,train,"Foto thorax: gallbladder unremarkable, hepar tidak membesar.",normal,normal,True
+05,dev,"Ginjal dalam batas normal, gallbladder unremarkable.",normal,normal,True
+05,train,Kesan: cor tidak membesar; pleura normal; tidak tampak infiltrat; liver size normal.,normal,normal,True
+05,test,USG: hepar normal; pleura normal; ginjal dalam batas normal.,normal,normal,True
+05,train,Hasil: both kidneys normal. no pleural effusion.,normal,normal,True
+05,train,"Impression: hepar tidak membesar, gallbladder unremarkable, no active lung lesion, ginjal dalam batas normal.",normal,normal,True
+05,train,USG: no nephrolithiasis. liver unremarkable.,normal,normal,True
+05,train,"Kesan: tidak tampak batu empedu, liver size normal, no pleural effusion.",normal,normal,True
+05,test,"Liver unremarkable, pulmo tidak tampak kelainan, both kidneys normal.",normal,normal,True
+05,train,Pulmo tidak tampak kelainan. tidak tampak batu empedu. cor normal.,normal,normal,True
+05,train,No pleural effusion; cor normal; ginjal kanan dan kiri normal.,normal,normal,True
+05,train,Tidak tampak kelainan.,normal,normal,True
+05,train,Lungs clear. hepar tidak membesar. vesica fellea normal.,normal,normal,True
+05,train,Impression: cardiomegaly; tidak tampak infiltrat; no nephrolithiasis; tidak tampak batu empedu Saran USG ulang.,abnormal,abnormal,True
+06,train,Impression: tidak tampak infiltrat. heart size normal. ginjal kanan dan kiri normal. hepar dalam batas normal.,normal,normal,True
+06,test,"Kesan: no pleural effusion, no hepatomegaly, pulmo tidak tampak kelainan.",normal,normal,True
+06,dev,"Foto thorax: TB lesion suspek, nephrolithiasis ginjal kiri ukuran 0.6 cm, no hepatomegaly.",abnormal,abnormal,True
+06,train,Hasil: tidak tampak infiltrat; hydronephrosis; pleura normal.,abnormal,abnormal,True
+06,train,Foto thorax: kolelitiasis. pulmo dalam batas normal. liver size normal.,abnormal,abnormal,True
+06,dev,"Foto thorax: tidak tampak infiltrat, pleura normal, vesica fellea tidak tampak kelainan, kardiomegali Suggest clinical correlation.",abnormal,abnormal,True
+06,test,"Hasil: lungs clear, both kidneys normal, hepar tidak membesar.",normal,normal,True
+06,train,Dalam batas normal.,normal,normal,True
+06,train,Foto thorax: liver unremarkable; cor tidak membesar.,normal,normal,True
+06,test,"USG: no nephrolithiasis, cor tidak membesar, gallstones.",abnormal,abnormal,True
+06,train,Kesan: dalam batas normal.,normal,normal,True
+06,train,Kesan: ginjal kanan dan kiri normal. no pleural effusion.,normal,normal,True
+06,test,"No nephrolithiasis, gallbladder unremarkable.",normal,normal,True
+06,train,No pleural effusion; pulmo tidak tampak kelainan; hepar dalam batas normal; CTR normal.,normal,normal,True
+06,train,Tidak tampak batu empedu. tidak tampak kardiomegali. pleural effusion bilateral Korelasi klinis dianjurkan.,abnormal,abnormal,True
+06,train,"USG: tidak tampak kardiomegali, no nephrolithiasis, pulmo tidak tampak kelainan.",normal,normal,True
+06,test,"Impression: liver unremarkable, tidak tampak kardiomegali, kolelitiasis soliter.",abnormal,abnormal,True
+06,train,Liver size normal. cor tidak membesar. sinus costophrenicus tajam.,normal,normal,True
+06,train,Impression: efusi pleura minimal kanan. ginjal normal bilateral. liver unremarkable.,abnormal,abnormal,True
+06,train,Liver size normal; pulmo tidak tampak kelainan.,normal,normal,True
+06,train,Foto thorax: kardiomegali; pulmo tidak tampak kelainan; liver size normal.,abnormal,abnormal,True
+06,dev,Foto thorax: tidak tampak kelainan.,normal,normal,True
+06,dev,USG: no pleural effusion; ginjal kanan dan kiri normal; pulmo dalam batas normal; vesica fellea normal.,normal,normal,True
+06,dev,Foto thorax: normal study.,normal,normal,True
+06,dev,Foto thorax: pulmo tidak tampak kelainan. both kidneys normal. heart size normal. kolelitiasis soliter.,abnormal,abnormal,True
+06,train,Lungs clear. no nephrolithiasis. liver size normal.,normal,normal,True
+06,test,"Cor tidak membesar, hepar dalam batas normal.",normal,normal,True
+06,train,Normal study.,normal,normal,True
+06,dev,Hasil: tidak tampak batu empedu. no pleural effusion. tidak tampak infiltrat. cor normal.,normal,normal,True
+06,test,Impression: normal study.,normal,normal,True
+06,train,CTR normal; gallbladder unremarkable; no active lung lesion; ginjal kanan dan kiri normal.,normal,normal,True
+06,train,"Foto thorax: ginjal kanan dan kiri normal, hepar normal, efusi pleura Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+06,train,"Impression: pleura normal, pulmo dalam batas normal, hepar normal, gallbladder unremarkable.",normal,normal,True
+06,train,Kesan: kolelitiasis soliter; sinus costophrenicus tajam; ginjal dalam batas normal.,abnormal,abnormal,True
+06,train,Kesan: sinus costophrenicus tajam; tidak tampak batu empedu; no nephrolithiasis.,normal,normal,True
+06,train,USG: tidak tampak infiltrat. ginjal kanan dan kiri normal.,normal,normal,True
+06,train,"USG: vesica fellea tidak tampak kelainan, no nephrolithiasis, liver unremarkable.",normal,normal,True
+06,test,Kesan: ginjal normal bilateral. liver unremarkable.,normal,normal,True
+06,dev,Ginjal dalam batas normal; vesica fellea normal; CTR normal; infiltrat pada lobus kanan.,abnormal,abnormal,True
+06,train,"Pulmo tidak tampak kelainan, efusi pleura, vesica fellea normal Suggest clinical correlation.",abnormal,abnormal,True
+06,train,Kesan: tidak tampak infiltrat. liver size normal. sinus costophrenicus tajam. no nephrolithiasis.,normal,normal,True
+06,train,Foto thorax: sinus costophrenicus tajam. ginjal normal bilateral.,normal,normal,True
+06,train,"USG: no active lung lesion, pleural effusion bilateral, CTR normal Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+06,train,Hasil: tidak tampak batu empedu. pulmo dalam batas normal.,normal,normal,True
+06,dev,Sinus costophrenicus tajam; lungs clear; both kidneys normal; CTR normal.,normal,normal,True
+06,test,"Foto thorax: cor normal, pulmo tidak tampak kelainan, gallbladder unremarkable, no pleural effusion.",normal,normal,True
+06,train,USG: batu empedu multiple; ginjal dalam batas normal; lungs clear; heart size normal Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+06,dev,Kesan: hepatomegaly. pleural effusion bilateral.,abnormal,abnormal,True
+06,dev,Foto thorax: dalam batas normal.,normal,normal,True
+06,dev,Gallbladder unremarkable; no nephrolithiasis; fatty liver grade II.,abnormal,abnormal,True
+06,test,Batu ginjal kiri. hepar tidak membesar. pleura normal. cholelithiasis Saran USG ulang.,abnormal,abnormal,True
+06,train,Dalam batas normal.,normal,normal,True
+07,dev,No pleural effusion; no nephrolithiasis; pulmo tidak tampak kelainan.,normal,normal,True
+07,dev,Heart size normal; liver unremarkable; no pleural effusion.,normal,normal,True
+07,test,Hasil: sinus costophrenicus tajam. ginjal kanan dan kiri normal. pulmo tidak tampak kelainan. batu empedu multiple Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+07,dev,Kolelitiasis soliter; nephrolithiasis ginjal kiri ukuran 0.6 cm Suggest clinical correlation.,abnormal,abnormal,True
+07,train,Kesan: hepar normal. cor normal. no pleural effusion.,normal,normal,True
+07,dev,"Hasil: tidak tampak infiltrat, tidak tampak batu empedu, pleura normal.",normal,normal,True
+07,dev,Hasil: ginjal normal bilateral. lungs clear. kolelitiasis soliter. hepar dalam batas normal Korelasi klinis dianjurkan.,abnormal,abnormal,True
+07,train,Kesan: dalam batas normal.,normal,normal,True
+07,train,Hasil: fatty liver grade II. pleura normal.,abnormal,abnormal,True
+07,train,USG: hepar normal; heart size normal; no nephrolithiasis.,normal,normal,True
+07,dev,"Kesan: tidak tampak infiltrat, vesica fellea tidak tampak kelainan, tidak tampak kardiomegali.",normal,normal,True
+07,test,"Cardiomegaly dengan CTR 0.58, pleura normal, pulmo tidak tampak kelainan, vesica fellea normal Korelasi klinis dianjurkan.",abnormal,abnormal,True
+07,dev,"Hasil: tidak tampak batu empedu, ginjal kanan dan kiri normal, no pleural effusion.",normal,normal,True
+07,dev,"Hasil: gallbladder unremarkable, nephrolithiasis ginjal kiri ukuran 0.6 cm, pulmo dalam batas normal, cardiomegaly dengan CTR 0.58.",abnormal,abnormal,True
+07,test,Tidak tampak batu empedu. infiltrat perihiler. tidak tampak kardiomegali.,abnormal,abnormal,True
+07,train,Pulmo dalam batas normal. hepar dalam batas normal. CTR normal. ginjal normal bilateral.,normal,normal,True
+07,train,"USG: no pleural effusion, no nephrolithiasis, tidak tampak kardiomegali.",normal,normal,True
+07,dev,Foto thorax: tidak tampak kelainan.,normal,normal,True
+07,train,Pleura normal; pulmo dalam batas normal; heart size normal.,normal,normal,True
+07,train,Hasil: batu empedu multiple; pneumonia; no nephrolithiasis.,abnormal,abnormal,True
+07,train,USG: fatty liver grade II. ginjal kanan dan kiri normal. pleura normal.,abnormal,abnormal,True
+07,train,USG: normal study.,normal,normal,True
+07,dev,"USG: cor tidak membesar, tidak tampak infiltrat, ginjal dalam batas normal.",normal,normal,True
+07,train,Ginjal kanan dan kiri normal; tidak tampak kardiomegali; lungs clear.,normal,normal,True
+07,train,Ginjal kanan dan kiri normal; gallbladder unremarkable; sinus costophrenicus tajam; kardiomegali Korelasi klinis dianjurkan.,abnormal,abnormal,True
+07,train,Kesan: ginjal kanan dan kiri normal. pulmo tidak tampak kelainan.,normal,normal,True
+07,train,Pulmo dalam batas normal; hydronephrosis; CTR normal.,abnormal,abnormal,True
+07,train,Kesan: no pleural effusion. cardiomegaly. hepar dalam batas normal. ginjal kanan dan kiri normal Korelasi klinis dianjurkan.,abnormal,abnormal,True
+07,train,Hasil: fatty liver grade II. sinus costophrenicus tajam. ginjal dalam batas normal.,abnormal,abnormal,True
+07,train,Vesica fellea tidak tampak kelainan. hepar tidak membesar. no active lung lesion.,normal,normal,True
+07,train,USG: hepatic steatosis; cor normal; ginjal dalam batas normal.,abnormal,abnormal,True
+08,train,Hasil: tidak tampak kelainan.,normal,normal,True
+08,test,"Impression: vesica fellea normal, no nephrolithiasis, perlemakan hati, penebalan pleura.",abnormal,abnormal,True
+08,test,"Impression: hepatic steatosis, no pleural effusion, no active lung lesion, ginjal kanan dan kiri normal Suggest clinical correlation.",abnormal,abnormal,True
+08,train,Batu ginjal kiri; tidak tampak batu empedu Korelasi klinis dianjurkan.,abnormal,abnormal,True
+08,train,Hasil: kolelitiasis. tidak tampak infiltrat. both kidneys normal. cor membesar.,abnormal,abnormal,True
+08,train,"Ginjal dalam batas normal, no hepatomegaly, pleura normal.",normal,normal,True
+08,dev,"Pneumonia, pleura normal, no hepatomegaly Suggest clinical correlation.",abnormal,abnormal,True
+08,train,"Vesica fellea normal, renal cyst, hepatomegaly, no pleural effusion.",abnormal,abnormal,True
+08,dev,Hepar dalam batas normal; tidak tampak batu empedu; bronchopneumonia; cor tidak membesar.,abnormal,abnormal,True
+08,dev,"Foto thorax: tidak tampak batu empedu, cor tidak membesar, bronchopneumonia, no pleural effusion Korelasi klinis dianjurkan.",abnormal,abnormal,True
+08,test,"Hasil: sinus costophrenicus tajam, tidak tampak batu empedu.",normal,normal,True
+08,train,Hasil: ginjal dalam batas normal. cor normal.,normal,normal,True
+08,train,"Impression: tidak tampak batu empedu, both kidneys normal.",normal,normal,True
+08,train,Vesica fellea tidak tampak kelainan. no nephrolithiasis. hepatomegaly Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+08,train,"Impression: no pleural effusion, TB lesion suspek, liver size normal Saran USG ulang.",abnormal,abnormal,True
+08,train,"USG: ginjal normal bilateral, tidak tampak kardiomegali, tidak tampak infiltrat, liver size normal.",normal,normal,True
+08,test,Foto thorax: tidak tampak infiltrat. pleura normal. CTR normal.,normal,normal,True
+08,test,Kesan: liver size normal; cardiomegaly; bronchopneumonia; pleura normal.,abnormal,abnormal,True
+08,train,Kesan: no active lung lesion. vesica fellea tidak tampak kelainan. ginjal kanan dan kiri normal. fatty liver grade I.,abnormal,abnormal,True
+08,dev,"Kesan: ginjal normal bilateral, gallbladder unremarkable, tidak tampak infiltrat.",normal,normal,True
+08,train,Kesan: hepar tidak membesar; tidak tampak batu empedu; no active lung lesion; no nephrolithiasis.,normal,normal,True
+08,dev,Foto thorax: no pleural effusion; no nephrolithiasis.,normal,normal,True
+08,dev,Kesan: tidak tampak kelainan.,normal,normal,True
+08,test,"Hepar normal, no pleural effusion.",normal,normal,True
+08,test,Impression: no pleural effusion. kolelitiasis soliter. tidak tampak kardiomegali.,abnormal,abnormal,True
+08,train,"USG: kardiomegali dengan CTR meningkat, vesica fellea normal.",abnormal,abnormal,True
+08,dev,Kesan: no hepatomegaly; sinus costophrenicus tajam; infiltrat perihiler Suggest clinical correlation.,abnormal,abnormal,True
+08,train,Pleural effusion bilateral. vesica fellea normal. cor normal. hepar normal.,abnormal,abnormal,True
+08,dev,CTR normal; pneumonia.,abnormal,abnormal,True
+08,train,"USG: hepatomegaly, heart size normal, no pleural effusion.",abnormal,abnormal,True
+08,test,Penebalan pleura; gallbladder unremarkable; hepatomegali.,abnormal,abnormal,True
+08,train,"Hasil: infiltrat pada lobus kanan, ginjal normal bilateral, liver size normal, no pleural effusion.",abnormal,abnormal,True
+08,train,"Bronchopneumonia, vesica fellea tidak tampak kelainan, pleura normal, hepar tidak membesar Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+08,test,Pleura normal. liver size normal. heart size normal.,normal,normal,True
+08,train,Foto thorax: tidak tampak batu empedu; pleural effusion bilateral; liver unremarkable.,abnormal,abnormal,True
+08,test,Kesan: both kidneys normal. sinus costophrenicus tajam.,normal,normal,True
+09,train,Foto thorax: lungs clear; enlarged cardiac silhouette; gallstones; hepar tidak membesar.,abnormal,abnormal,True
+09,train,"USG: cardiomegaly dengan CTR 0.58, pleura normal, hepar normal, pulmo tidak tampak kelainan.",abnormal,abnormal,True
+09,test,Impression: dalam batas normal.,normal,normal,True
+09,train,Hepar dalam batas normal. pleura normal. pulmo tidak tampak kelainan.,normal,normal,True
+09,train,"Hasil: CTR normal, pleural effusion bilateral, both kidneys normal.",abnormal,abnormal,True
+09,test,"Hasil: pleura normal, hepatomegali, renal cyst, cor normal.",abnormal,abnormal,True
+09,train,"Liver size normal, gallbladder unremarkable, no active lung lesion.",normal,normal,True
+09,test,Kesan: vesica fellea normal. ginjal dalam batas normal. no active lung lesion.,normal,normal,True
+09,train,"Impression: lungs clear, ginjal dalam batas normal, sinus costophrenicus tajam.",normal,normal,True
+09,train,Impression: lungs clear. liver size normal. both kidneys normal.,normal,normal,True
+09,train,Kesan: pulmo tidak tampak kelainan. CTR normal.,normal,normal,True
+09,test,"Kesan: vesica fellea normal, pulmo tidak tampak kelainan.",normal,normal,True
+09,test,Impression: dalam batas normal.,normal,normal,True
+09,train,Impression: CTR normal. liver size normal.,normal,normal,True
+09,dev,USG: hepar tidak membesar; pleura normal; kista ginjal kanan; gallbladder unremarkable Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+09,train,Cor tidak membesar. both kidneys normal. hepar normal.,normal,normal,True
+09,train,Impression: pleura normal. pulmo dalam batas normal. perlemakan hati. CTR normal Korelasi klinis dianjurkan.,abnormal,abnormal,True
+09,test,Pulmo tidak tampak kelainan. hepar tidak membesar. efusi pleura. heart size normal.,abnormal,abnormal,True
+09,train,Ginjal normal bilateral; CTR normal; vesica fellea normal.,normal,normal,True
+09,train,"No active lung lesion, tidak tampak kardiomegali, ginjal kanan dan kiri normal, fatty liver grade II Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+09,train,USG: nephrolithiasis ginjal kiri ukuran 0.6 cm; no pleural effusion.,abnormal,abnormal,True
+09,train,Pleura normal; ginjal kanan dan kiri normal; tidak tampak infiltrat.,normal,normal,True
+09,dev,Impression: pleura normal; vesica fellea normal.,normal,normal,True
+09,train,Foto thorax: pulmo tidak tampak kelainan; gallbladder unremarkable; hepar tidak membesar.,normal,normal,True
+09,dev,Hasil: pleura normal. liver unremarkable. enlarged cardiac silhouette.,abnormal,abnormal,True
+09,test,Hasil: dalam batas normal.,normal,normal,True
+09,test,CTR normal; sinus costophrenicus tajam.,normal,normal,True
+09,train,Hasil: hepar tidak membesar. infiltrat pada lobus kanan. gallbladder unremarkable. cardiomegaly dengan CTR 0.58.,abnormal,abnormal,True
+09,train,Tidak tampak kelainan.,normal,normal,True
+09,train,USG: tidak tampak kelainan.,normal,normal,True
+10,train,Pulmo tidak tampak kelainan. gallbladder unremarkable. hepar tidak membesar. kista ginjal kanan.,abnormal,abnormal,True
+10,dev,Hasil: hepar tidak membesar; pneumonia.,abnormal,abnormal,True
+10,train,Enlarged cardiac silhouette; pleura normal; tidak tampak batu empedu.,abnormal,abnormal,True
+10,train,Bronchopneumonia; hepar tidak membesar; tidak tampak batu empedu.,abnormal,abnormal,True
+10,train,"Foto thorax: cor tidak membesar, vesica fellea normal, liver unremarkable.",normal,normal,True
+10,train,Hasil: no nephrolithiasis. gallbladder unremarkable. pulmo tidak tampak kelainan.,normal,normal,True
+10,train,Foto thorax: pulmo tidak tampak kelainan; hepar tidak membesar; pleura normal; ginjal kanan dan kiri normal.,normal,normal,True
+10,dev,"USG: no hepatomegaly, pleura normal.",normal,normal,True
+10,train,Foto thorax: cor normal; hepatomegali; ginjal dalam batas normal.,abnormal,abnormal,True
+10,train,"Impression: fatty liver grade I, vesica fellea normal, no active lung lesion Korelasi klinis dianjurkan.",abnormal,abnormal,True
+10,train,"Hasil: pulmo dalam batas normal, hepar tidak membesar, vesica fellea tidak tampak kelainan.",normal,normal,True
+10,train,Tidak tampak kelainan.,normal,normal,True
+10,train,Hasil: tidak tampak kardiomegali; gallbladder unremarkable; hepar normal.,normal,normal,True
+10,dev,Nephrolithiasis ginjal kiri ukuran 0.6 cm. vesica fellea normal. tidak tampak infiltrat. hepatomegali.,abnormal,abnormal,True
+10,train,Sinus costophrenicus tajam. tidak tampak infiltrat. kista ginjal kanan.,abnormal,abnormal,True
+10,train,Foto thorax: hepar normal; infiltrat perihiler; ginjal dalam batas normal.,abnormal,abnormal,True
+10,train,Lungs clear; no pleural effusion; liver size normal.,normal,normal,True
+10,train,Tidak tampak kelainan.,normal,normal,True
+10,dev,Tidak tampak infiltrat; both kidneys normal; liver size normal; no pleural effusion.,normal,normal,True
+10,train,"Hepar membesar, lungs clear, tidak tampak batu empedu Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+10,dev,"Impression: sinus costophrenicus tajam, hepar normal, enlarged cardiac silhouette, no active lung lesion Korelasi klinis dianjurkan.",abnormal,abnormal,True
+10,train,Tidak tampak kardiomegali. tidak tampak batu empedu. tidak tampak infiltrat.,normal,normal,True
+10,test,Pulmo dalam batas normal. hepatomegaly. tidak tampak batu empedu.,abnormal,abnormal,True
+10,train,Vesica fellea tidak tampak kelainan; efusi pleura; liver size normal Saran USG ulang.,abnormal,abnormal,True
+10,train,"Tidak tampak batu empedu, CTR normal, hepar membesar.",abnormal,abnormal,True
+10,train,"Impression: fibrosis paru, efusi pleura, CTR normal.",abnormal,abnormal,True
+10,dev,"No pleural effusion, tidak tampak batu empedu, ginjal kanan dan kiri normal, no hepatomegaly.",normal,normal,True
+10,test,USG: CTR normal. no nephrolithiasis.,normal,normal,True
+10,train,Hasil: no active lung lesion; ginjal normal bilateral; vesica fellea tidak tampak kelainan.,normal,normal,True
+11,train,Impression: cor normal. ginjal dalam batas normal. gallbladder unremarkable.,normal,normal,True
+11,train,No active lung lesion. batu empedu multiple. cor normal Korelasi klinis dianjurkan.,abnormal,abnormal,True
+11,dev,Kesan: tidak tampak infiltrat; hepar normal.,normal,normal,True
+11,train,Dalam batas normal.,normal,normal,True
+11,test,"Kesan: lungs clear, sinus costophrenicus tajam.",normal,normal,True
+11,test,No pleural effusion. both kidneys normal.,normal,normal,True
+11,train,"Hasil: ginjal kanan dan kiri normal, cardiomegaly dengan CTR 0.58 Korelasi klinis dianjurkan.",abnormal,abnormal,True
+11,train,No active lung lesion. no pleural effusion. gallbladder unremarkable.,normal,normal,True
+11,dev,"Pleura normal, cor normal.",normal,normal,True
+11,test,Foto thorax: pleura normal. tidak tampak batu empedu. renal cyst Suggest clinical correlation.,abnormal,abnormal,True
+11,train,USG: ginjal kanan dan kiri normal. no hepatomegaly. tidak tampak infiltrat.,normal,normal,True
+11,train,Foto thorax: tidak tampak batu empedu. no pleural effusion. no nephrolithiasis. hepar tidak membesar.,normal,normal,True
+11,train,"Hasil: hepatomegaly, vesica fellea normal, pulmo tidak tampak kelainan, no nephrolithiasis Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+11,train,Pleura normal; gallbladder unremarkable.,normal,normal,True
+11,test,Pulmo tidak tampak kelainan. liver unremarkable. heart size normal.,normal,normal,True
+11,train,Hasil: hepar dalam batas normal; pulmo dalam batas normal; cardiomegaly dengan CTR 0.58 Suggest clinical correlation.,abnormal,abnormal,True
+11,train,Tidak tampak kelainan.,normal,normal,True
+11,dev,"Kesan: pleura normal, gallbladder unremarkable, lungs clear, liver size normal.",normal,normal,True
+11,train,USG: cor tidak membesar. infiltrat pada lobus kanan. efusi pleura minimal kanan. liver size normal.,abnormal,abnormal,True
+11,test,"USG: no active lung lesion, batu ginjal kiri, pleura normal Saran USG ulang.",abnormal,abnormal,True
+11,dev,"Hasil: ginjal normal bilateral, heart size normal, liver size normal.",normal,normal,True
+11,test,"Impression: liver size normal, no active lung lesion, ginjal kanan dan kiri normal.",normal,normal,True
+11,train,Foto thorax: pleura normal; fibrosis paru.,abnormal,abnormal,True
+11,test,Hepar membesar. both kidneys normal.,abnormal,abnormal,True
+11,train,Foto thorax: bronchopneumonia; pleura normal; hepatic steatosis.,abnormal,abnormal,True
+11,train,"USG: lungs clear, tidak tampak batu empedu, no pleural effusion.",normal,normal,True
+11,dev,Foto thorax: dalam batas normal.,normal,normal,True
+11,train,Hasil: CTR normal; hepar normal; cholelithiasis.,abnormal,abnormal,True
+11,dev,USG: hepar normal. gallbladder unremarkable. pleura normal.,normal,normal,True
+11,train,Normal study.,normal,normal,True
+11,dev,Hidronefrosis ringan. hepar normal. vesica fellea normal. no pleural effusion Saran USG ulang.,abnormal,abnormal,True
+11,test,Hasil: sinus costophrenicus tajam. CTR normal. cholecystitis. pulmo tidak tampak kelainan Saran USG ulang.,abnormal,abnormal,True
+11,train,Impression: nephrolithiasis; tidak tampak infiltrat; tidak tampak batu empedu Saran USG ulang.,abnormal,abnormal,True
+11,train,Foto thorax: efusi pleura; CTR normal.,abnormal,abnormal,True
+11,train,Foto thorax: no active lung lesion; cor tidak membesar; hepar tidak membesar.,normal,normal,True
+11,test,Impression: dalam batas normal.,normal,normal,True
+11,train,Hasil: cor normal. ginjal normal bilateral.,normal,normal,True
+11,train,"Hasil: pleura normal, cor tidak membesar, hepatomegaly Saran USG ulang.",abnormal,abnormal,True
+12,train,"Hasil: pulmo tidak tampak kelainan, tidak tampak kardiomegali, no nephrolithiasis, cholecystitis.",abnormal,abnormal,True
+12,test,USG: infiltrat pada lobus kanan; no pleural effusion; both kidneys normal Suggest clinical correlation.,abnormal,abnormal,True
+12,train,CTR normal. nephrolithiasis ginjal kiri ukuran 0.6 cm.,abnormal,abnormal,True
+12,train,Impression: enlarged cardiac silhouette; vesica fellea normal; sinus costophrenicus tajam Saran USG ulang.,abnormal,abnormal,True
+12,dev,Impression: no pleural effusion; pulmo tidak tampak kelainan; ginjal kanan dan kiri normal.,normal,normal,True
+12,train,Impression: tidak tampak batu empedu. batu ginjal kiri. pulmo tidak tampak kelainan. pleural effusion bilateral.,abnormal,abnormal,True
+12,train,Tidak tampak batu empedu. ginjal dalam batas normal.,normal,normal,True
+12,train,"Hepar tidak membesar, vesica fellea normal, pleura normal.",normal,normal,True
+12,test,Foto thorax: ginjal kanan dan kiri normal. efusi pleura minimal kanan. pulmo tidak tampak kelainan. kolelitiasis soliter Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+12,train,Cor tidak membesar. vesica fellea normal. ginjal kanan dan kiri normal.,normal,normal,True
+12,dev,Heart size normal. both kidneys normal. no pleural effusion.,normal,normal,True
+12,train,Hasil: pleura normal. tidak tampak infiltrat. hepatomegaly.,abnormal,abnormal,True
+12,train,Normal study.,normal,normal,True
+12,dev,No nephrolithiasis. hepar normal. tidak tampak infiltrat. cor membesar.,abnormal,abnormal,True
+12,train,Foto thorax: tidak tampak batu empedu; both kidneys normal; kardiomegali dengan CTR meningkat; no hepatomegaly.,abnormal,abnormal,True
+12,dev,Foto thorax: batu empedu multiple. hepar normal. lungs clear.,abnormal,abnormal,True
+12,train,Foto thorax: sinus costophrenicus tajam; ginjal dalam batas normal; no active lung lesion; liver unremarkable.,normal,normal,True
+12,dev,"Ginjal kanan dan kiri normal, pneumonia, liver unremarkable Korelasi klinis dianjurkan.",abnormal,abnormal,True
+12,train,USG: cor membesar; liver unremarkable.,abnormal,abnormal,True
+12,dev,"Vesica fellea normal, hepar normal, cor normal.",normal,normal,True
+12,dev,Impression: ginjal normal bilateral. cardiomegaly dengan CTR 0.58. no pleural effusion. hepar normal.,abnormal,abnormal,True
+12,train,"Impression: cor membesar, vesica fellea tidak tampak kelainan, no pleural effusion, ginjal normal bilateral.",abnormal,abnormal,True
+12,test,USG: liver unremarkable; cor tidak membesar; no nephrolithiasis.,normal,normal,True
+12,train,Foto thorax: heart size normal; no pleural effusion.,normal,normal,True
+12,train,"Impression: pulmo dalam batas normal, hepar dalam batas normal, pleura normal.",normal,normal,True
+12,test,Gallbladder unremarkable. no nephrolithiasis. heart size normal.,normal,normal,True
+12,dev,Hasil: hepar normal; no nephrolithiasis.,normal,normal,True
+12,dev,Kesan: vesica fellea tidak tampak kelainan; renal cyst; tidak tampak infiltrat.,abnormal,abnormal,True
+12,train,Kesan: hepar tidak membesar; vesica fellea normal; cor normal.,normal,normal,True
+12,train,Impression: no active lung lesion; no pleural effusion; gallbladder unremarkable.,normal,normal,True
+12,train,"No active lung lesion, liver size normal, no pleural effusion, ginjal dalam batas normal.",normal,normal,True
+13,test,Hasil: lungs clear. efusi pleura.,abnormal,abnormal,True
+13,train,Ginjal dalam batas normal; lungs clear; tidak tampak batu empedu.,normal,normal,True
+13,train,USG: both kidneys normal; hepatic steatosis; vesica fellea tidak tampak kelainan.,abnormal,abnormal,True
+13,train,Foto thorax: CTR normal. lungs clear. hepatic steatosis.,abnormal,abnormal,True
+13,train,Tidak tampak kelainan.,normal,normal,True
+13,train,Tidak tampak kelainan.,normal,normal,True
+13,test,Impression: enlarged cardiac silhouette; no pleural effusion Suggest clinical correlation.,abnormal,abnormal,True
+13,train,"USG: CTR normal, nephrolithiasis, vesica fellea tidak tampak kelainan.",abnormal,abnormal,True
+13,train,Ginjal dalam batas normal. liver unremarkable. pleural effusion bilateral.,abnormal,abnormal,True
+13,train,"Cor normal, no pleural effusion, tidak tampak batu empedu.",normal,normal,True
+13,test,"USG: cor normal, hidronefrosis ringan, cholelithiasis.",abnormal,abnormal,True
+13,test,Foto thorax: ginjal normal bilateral. fibrosis paru. hepar dalam batas normal.,abnormal,abnormal,True
+13,train,Hasil: no hepatomegaly; no pleural effusion; tidak tampak infiltrat.,normal,normal,True
+13,dev,Kesan: no nephrolithiasis. gallbladder unremarkable. CTR normal. hepar dalam batas normal.,normal,normal,True
+13,dev,USG: hepatic steatosis. both kidneys normal. no pleural effusion.,abnormal,abnormal,True
+13,train,Impression: liver unremarkable; vesica fellea tidak tampak kelainan.,normal,normal,True
+13,train,Kesan: liver size normal. lungs clear. no pleural effusion. kolelitiasis Suggest clinical correlation.,abnormal,abnormal,True
+13,dev,USG: ginjal kanan dan kiri normal. pulmo dalam batas normal. liver unremarkable. gallbladder unremarkable.,normal,normal,True
+13,train,"Foto thorax: nephrolithiasis ginjal kiri ukuran 0.6 cm, gallbladder unremarkable.",abnormal,abnormal,True
+13,test,Kesan: CTR normal. liver size normal. bronchopneumonia. ginjal normal bilateral.,abnormal,abnormal,True
+13,train,Foto thorax: hydronephrosis. hepar tidak membesar.,abnormal,abnormal,True
+13,train,Dalam batas normal.,normal,normal,True
+13,train,Pulmo tidak tampak kelainan. tidak tampak batu empedu. pleura normal.,normal,normal,True
+13,train,Impression: infiltrat perihiler. pleura normal. hepar tidak membesar.,abnormal,abnormal,True
+13,train,USG: vesica fellea normal; both kidneys normal.,normal,normal,True
+13,dev,"Foto thorax: nephrolithiasis ginjal kiri ukuran 0.6 cm, hepar normal Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+13,train,Foto thorax: tidak tampak kardiomegali; vesica fellea tidak tampak kelainan.,normal,normal,True
+13,train,Tidak tampak kardiomegali. ginjal normal bilateral. vesica fellea normal.,normal,normal,True
+13,test,Impression: normal study.,normal,normal,True
+13,train,Kesan: dalam batas normal.,normal,normal,True
+13,train,Gallbladder unremarkable. pulmo tidak tampak kelainan. no nephrolithiasis. hepar tidak membesar.,normal,normal,True
+13,train,Infiltrat pada lobus kanan; vesica fellea normal; hepar dalam batas normal.,abnormal,abnormal,True
+13,train,Hasil: lungs clear. vesica fellea tidak tampak kelainan. no hepatomegaly.,normal,normal,True
+13,train,Hasil: tidak tampak kelainan.,normal,normal,True
+13,train,Cor tidak membesar. hepatomegaly. pulmo dalam batas normal. ginjal kanan dan kiri normal.,abnormal,abnormal,True
+13,dev,Foto thorax: CTR normal; ginjal dalam batas normal.,normal,normal,True
+13,train,Ginjal dalam batas normal; efusi pleura Korelasi klinis dianjurkan.,abnormal,abnormal,True
+13,train,Impression: no active lung lesion. both kidneys normal. penebalan pleura.,abnormal,abnormal,True
+13,train,Liver size normal; no pleural effusion; cardiomegaly dengan CTR 0.58 Saran USG ulang.,abnormal,abnormal,True
+13,train,Cor membesar; hepar dalam batas normal.,abnormal,abnormal,True
+13,train,Normal study.,normal,normal,True
+13,train,Impression: gallbladder unremarkable. hepar tidak membesar. sinus costophrenicus tajam.,normal,normal,True
+13,train,Impression: efusi pleura. tidak tampak infiltrat. cor normal. liver size normal.,abnormal,abnormal,True
+13,test,Both kidneys normal. tidak tampak batu empedu. liver unremarkable. heart size normal.,normal,normal,True
+13,train,"Hepar membesar, ginjal kanan dan kiri normal Suggest clinical correlation.",abnormal,abnormal,True
+13,train,Fibrosis paru. tidak tampak batu empedu. ginjal normal bilateral. pleura normal.,abnormal,abnormal,True
+13,test,"Vesica fellea tidak tampak kelainan, no pleural effusion, hepar normal, cor membesar.",abnormal,abnormal,True
+13,dev,USG: dalam batas normal.,normal,normal,True
+13,train,Gallbladder unremarkable; both kidneys normal.,normal,normal,True
+13,train,"Pulmo tidak tampak kelainan, vesica fellea normal, hepar normal.",normal,normal,True
+13,dev,USG: dalam batas normal.,normal,normal,True
+13,train,Hasil: heart size normal. pleura normal.,normal,normal,True
+13,dev,Kesan: liver size normal. ginjal dalam batas normal.,normal,normal,True
+13,train,"Hepatic steatosis, no nephrolithiasis, tidak tampak infiltrat, pleura normal.",abnormal,abnormal,True
+13,test,Gallbladder unremarkable; no pleural effusion.,normal,normal,True
+13,train,Ginjal kanan dan kiri normal. pulmo tidak tampak kelainan. cor tidak membesar. pleura normal.,normal,normal,True
+13,train,Dalam batas normal.,normal,normal,True
+13,train,"Hasil: tidak tampak batu empedu, cor tidak membesar, both kidneys normal.",normal,normal,True
+13,train,Impression: pleura normal; liver unremarkable; no active lung lesion; vesica fellea normal.,normal,normal,True
+13,test,"Impression: no hepatomegaly, vesica fellea tidak tampak kelainan, no active lung lesion, pleura normal.",normal,normal,True
+13,train,Hasil: vesica fellea normal; pneumonia.,abnormal,abnormal,True
+13,dev,"Kesan: pulmo dalam batas normal, sinus costophrenicus tajam, cor normal.",normal,normal,True
+13,test,"Fatty liver grade I, ginjal normal bilateral, tidak tampak kardiomegali.",abnormal,abnormal,True
+13,train,Impression: liver unremarkable; vesica fellea normal; no active lung lesion.,normal,normal,True
+13,train,Normal study.,normal,normal,True
+13,train,Tidak tampak kelainan.,normal,normal,True
+13,test,Sinus costophrenicus tajam; tidak tampak batu empedu; nephrolithiasis.,abnormal,abnormal,True
+13,dev,Hasil: normal study.,normal,normal,True
+13,train,USG: ginjal kanan dan kiri normal. hepar dalam batas normal.,normal,normal,True
+13,train,Kesan: kolelitiasis soliter. both kidneys normal. pleura normal Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+13,dev,USG: pleura normal; hepatomegali; no active lung lesion Saran USG ulang.,abnormal,abnormal,True
+13,test,Foto thorax: no hepatomegaly; no active lung lesion; cardiomegaly; batu ginjal kiri.,abnormal,abnormal,True
+13,test,"Kesan: tidak tampak infiltrat, liver size normal, ginjal kanan dan kiri normal.",normal,normal,True
+13,train,Hasil: no active lung lesion; penebalan pleura; hepar tidak membesar Saran USG ulang.,abnormal,abnormal,True
+13,dev,Hasil: normal study.,normal,normal,True
+13,dev,Kesan: no active lung lesion. perlemakan hati.,abnormal,abnormal,True
+13,train,Impression: cor normal; penebalan pleura; hepar tidak membesar; infiltrat pada lobus kanan.,abnormal,abnormal,True
+13,train,Cor normal; pleura normal.,normal,normal,True
+13,dev,Kesan: no pleural effusion; no active lung lesion; both kidneys normal; cor tidak membesar.,normal,normal,True
+13,train,Foto thorax: fatty liver grade I. CTR normal. no nephrolithiasis. infiltrat pada lobus kanan.,abnormal,abnormal,True
+13,test,"Kesan: infiltrat perihiler, no hepatomegaly, CTR normal.",abnormal,abnormal,True
+13,train,Kesan: dalam batas normal.,normal,normal,True
+13,test,Hasil: no pleural effusion. cor tidak membesar.,normal,normal,True
+13,train,"Foto thorax: nephrolithiasis ginjal kiri ukuran 0.6 cm, vesica fellea tidak tampak kelainan, pulmo tidak tampak kelainan, efusi pleura minimal kanan Suggest clinical correlation.",abnormal,abnormal,True
+13,train,Impression: pleura normal. pulmo dalam batas normal. hepar tidak membesar.,normal,normal,True
+13,train,Impression: hepar membesar; heart size normal Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+13,train,"Hasil: heart size normal, hepatomegaly Korelasi klinis dianjurkan.",abnormal,abnormal,True
+13,train,"Ginjal kanan dan kiri normal, tidak tampak batu empedu, liver unremarkable.",normal,normal,True
+13,train,Impression: pleura normal. heart size normal. liver unremarkable. tidak tampak infiltrat.,normal,normal,True
+13,dev,Kesan: tidak tampak kelainan.,normal,normal,True
+13,dev,Foto thorax: ginjal normal bilateral; infiltrat perihiler; liver size normal Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+13,dev,"Hepar tidak membesar, vesica fellea normal, CTR normal, no pleural effusion.",normal,normal,True
+13,dev,Pulmo dalam batas normal; ginjal normal bilateral; cor tidak membesar.,normal,normal,True
+13,train,Vesica fellea normal; ginjal normal bilateral; cor tidak membesar; pleura normal.,normal,normal,True
+13,train,"Foto thorax: vesica fellea normal, hepar normal, sinus costophrenicus tajam.",normal,normal,True
+13,train,Tidak tampak infiltrat; heart size normal; no hepatomegaly; kolelitiasis Disarankan pemeriksaan lanjutan.,abnormal,abnormal,True
+13,train,Impression: lungs clear; ginjal normal bilateral; hepatomegali.,abnormal,abnormal,True
+13,train,Impression: tidak tampak kelainan.,normal,normal,True
+13,dev,"Kesan: pleural effusion bilateral, hepar dalam batas normal Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+13,train,Cor tidak membesar; pulmo dalam batas normal.,normal,normal,True
+13,train,Foto thorax: sinus costophrenicus tajam; heart size normal; lungs clear; tidak tampak batu empedu.,normal,normal,True
+13,train,Kesan: dalam batas normal.,normal,normal,True
+13,train,Tidak tampak kelainan.,normal,normal,True
+13,test,Foto thorax: pulmo dalam batas normal; batu empedu multiple; both kidneys normal Korelasi klinis dianjurkan.,abnormal,abnormal,True
+13,test,"Foto thorax: efusi pleura, cor tidak membesar, hepar tidak membesar Saran USG ulang.",abnormal,abnormal,True
+13,train,Vesica fellea normal. sinus costophrenicus tajam. CTR normal. lungs clear.,normal,normal,True
+13,train,USG: tidak tampak infiltrat; no pleural effusion; CTR normal.,normal,normal,True
+13,train,Normal study.,normal,normal,True
+13,train,Kesan: tidak tampak infiltrat. vesica fellea tidak tampak kelainan. ginjal normal bilateral.,normal,normal,True
+13,train,Heart size normal. ginjal kanan dan kiri normal. pulmo tidak tampak kelainan.,normal,normal,True
+13,dev,"Hasil: infiltrat pada lobus kanan, tidak tampak kardiomegali, hepar normal Suggest clinical correlation.",abnormal,abnormal,True
+13,train,"Impression: kardiomegali, sinus costophrenicus tajam, hepar normal, ginjal normal bilateral.",abnormal,abnormal,True
+13,train,Kesan: nephrolithiasis ginjal kiri ukuran 0.6 cm. pleura normal.,abnormal,abnormal,True
+13,test,"Hasil: sinus costophrenicus tajam, fatty liver grade II, no active lung lesion Saran USG ulang.",abnormal,abnormal,True
+13,test,Hasil: tidak tampak infiltrat; tidak tampak batu empedu; ginjal kanan dan kiri normal.,normal,normal,True
+13,test,Impression: dalam batas normal.,normal,normal,True
+13,test,Impression: normal study.,normal,normal,True
+13,train,"Lungs clear, heart size normal, ginjal kanan dan kiri normal, hepar dalam batas normal.",normal,normal,True
+13,dev,"USG: batu empedu multiple, no nephrolithiasis, enlarged cardiac silhouette, efusi pleura.",abnormal,abnormal,True
+13,dev,"USG: no nephrolithiasis, vesica fellea normal.",normal,normal,True
+13,test,Hasil: cardiomegaly dengan CTR 0.58; both kidneys normal; liver unremarkable.,abnormal,abnormal,True
+13,train,USG: normal study.,normal,normal,True
+13,train,Hasil: no active lung lesion; gallbladder unremarkable.,normal,normal,True
+13,train,Hasil: tidak tampak kelainan.,normal,normal,True
+13,train,Kesan: ginjal dalam batas normal. efusi pleura minimal kanan.,abnormal,abnormal,True
+13,train,Impression: pleura normal. cor tidak membesar. gallbladder unremarkable.,normal,normal,True
+13,train,"Hepar membesar, tidak tampak batu empedu, kardiomegali.",abnormal,abnormal,True
+13,train,USG: gallbladder unremarkable; pulmo dalam batas normal.,normal,normal,True
+13,train,Sinus costophrenicus tajam. no active lung lesion. no nephrolithiasis.,normal,normal,True
+13,train,Impression: no hepatomegaly; heart size normal.,normal,normal,True
+13,test,"Kesan: hepar tidak membesar, no active lung lesion, heart size normal.",normal,normal,True
+13,train,Foto thorax: gallbladder unremarkable. tidak tampak infiltrat. pleura normal. hepar tidak membesar.,normal,normal,True
+13,test,Hasil: no pleural effusion. hepatomegaly Suggest clinical correlation.,abnormal,abnormal,True
+13,dev,"Foto thorax: tidak tampak kardiomegali, ginjal dalam batas normal, no active lung lesion.",normal,normal,True
+13,dev,"Impression: liver unremarkable, cor tidak membesar, pulmo tidak tampak kelainan.",normal,normal,True
+13,dev,Hasil: tidak tampak infiltrat. liver size normal.,normal,normal,True
+13,train,Hasil: tidak tampak kardiomegali. ginjal kanan dan kiri normal.,normal,normal,True
+13,dev,"USG: hydronephrosis, vesica fellea normal, sinus costophrenicus tajam.",abnormal,abnormal,True
+13,train,"Cor membesar, ginjal kanan dan kiri normal, gallbladder unremarkable.",abnormal,abnormal,True
+13,train,"USG: pulmo dalam batas normal, liver size normal, penebalan pleura.",abnormal,abnormal,True
+13,train,Foto thorax: renal cyst; bronchopneumonia; CTR normal.,abnormal,abnormal,True
+13,train,"USG: tidak tampak kardiomegali, ginjal dalam batas normal, no active lung lesion.",normal,normal,True
+13,train,"Hasil: sinus costophrenicus tajam, both kidneys normal, hepatomegali, no active lung lesion.",abnormal,abnormal,True
+13,train,Impression: hepar normal. infiltrat pada lobus kanan. gallbladder unremarkable.,abnormal,abnormal,True
+13,test,Impression: dalam batas normal.,normal,normal,True
+13,test,Kesan: no nephrolithiasis; heart size normal; no hepatomegaly.,normal,normal,True
+13,train,Heart size normal. hepar normal. penebalan pleura.,abnormal,abnormal,True
+13,train,Kesan: hepatomegali. pulmo tidak tampak kelainan. cor tidak membesar.,abnormal,abnormal,True
+13,train,"Kesan: pleura normal, pulmo dalam batas normal, hepar dalam batas normal.",normal,normal,True
+13,train,USG: CTR normal. no pleural effusion. ginjal kanan dan kiri normal.,normal,normal,True
+13,dev,"USG: heart size normal, no hepatomegaly.",normal,normal,True
+13,train,"Foto thorax: tidak tampak infiltrat, gallbladder unremarkable, sinus costophrenicus tajam.",normal,normal,True
+13,train,Foto thorax: no active lung lesion; sinus costophrenicus tajam; tidak tampak kardiomegali.,normal,normal,True
+13,train,Foto thorax: heart size normal. fibrosis paru. liver unremarkable.,abnormal,abnormal,True
+13,train,No active lung lesion; ginjal normal bilateral; no pleural effusion.,normal,normal,True
+13,train,USG: enlarged cardiac silhouette; efusi pleura minimal kanan; ginjal normal bilateral.,abnormal,abnormal,True
+13,train,Kesan: hepar normal; vesica fellea tidak tampak kelainan; ginjal dalam batas normal.,normal,normal,True
+13,test,Tidak tampak infiltrat. cor tidak membesar. hepar normal. kolelitiasis soliter.,abnormal,abnormal,True
+13,train,Foto thorax: no pleural effusion. gallbladder unremarkable. CTR normal.,normal,normal,True
+13,train,Kesan: tidak tampak kardiomegali; no nephrolithiasis; vesica fellea normal.,normal,normal,True
+13,test,Hepar tidak membesar; no active lung lesion.,normal,normal,True
+13,train,Impression: nephrolithiasis; cor normal; penebalan pleura; gallbladder unremarkable Korelasi klinis dianjurkan.,abnormal,abnormal,True
+13,test,Cor normal; pleura normal; pulmo dalam batas normal.,normal,normal,True
+13,test,Efusi pleura. gallbladder unremarkable. hepar normal.,abnormal,abnormal,True
+13,train,"Sinus costophrenicus tajam, CTR normal, bronchopneumonia Saran USG ulang.",abnormal,abnormal,True
+13,train,"Foto thorax: infiltrat perihiler, hepar tidak membesar, gallbladder unremarkable Disarankan pemeriksaan lanjutan.",abnormal,abnormal,True
+13,train,USG: ginjal dalam batas normal. hepar normal. vesica fellea tidak tampak kelainan.,normal,normal,True
+13,test,Foto thorax: pleura normal; ginjal dalam batas normal; hepar normal.,normal,normal,True
+13,dev,Kesan: tidak tampak kelainan.,normal,normal,True
+13,train,Lungs clear; cor normal; ginjal kanan dan kiri normal; gallstones Korelasi klinis dianjurkan.,abnormal,abnormal,True
+13,train,Hasil: penebalan pleura. lungs clear. ginjal dalam batas normal.,abnormal,abnormal,True
+13,train,"Pleura normal, no nephrolithiasis.",normal,normal,True
+13,train,Tidak tampak kelainan.,normal,normal,True
+13,train,Kesan: ginjal dalam batas normal. vesica fellea tidak tampak kelainan.,normal,normal,True
+13,test,Hasil: dalam batas normal.,normal,normal,True
+13,dev,"Foto thorax: vesica fellea normal, no pleural effusion, no nephrolithiasis.",normal,normal,True
+13,test,Hasil: sinus costophrenicus tajam; liver unremarkable; both kidneys normal.,normal,normal,True
+13,train,Foto thorax: ginjal dalam batas normal; tidak tampak batu empedu; no active lung lesion.,normal,normal,True
+13,test,Hasil: ginjal normal bilateral. pulmo tidak tampak kelainan. kolelitiasis.,abnormal,abnormal,True
+13,train,Impression: vesica fellea normal. no pleural effusion. tidak tampak infiltrat. hepar dalam batas normal.,normal,normal,True
+13,dev,Hasil: CTR normal. no pleural effusion. liver size normal. pulmo dalam batas normal.,normal,normal,True
+13,train,Kesan: heart size normal. pneumonia. tidak tampak batu empedu. hepar dalam batas normal.,abnormal,abnormal,True
+13,train,"Tidak tampak kardiomegali, tidak tampak infiltrat, liver size normal.",normal,normal,True

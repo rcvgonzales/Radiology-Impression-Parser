@@ -1,0 +1,57 @@
+{
+  "heldout_cues": [
+    "efusi",
+    "effusion",
+    "lithiasis",
+    "litiasis",
+    "kolelitiasis",
+    "nephrolithiasis",
+    "batu empedu",
+    "batu ginjal",
+    "gallstones?",
+    "kidney stones?"
+  ],
+  "families": [
+    "effusion",
+    "stones"
+  ],
+  "eval_total": 274,
+  "eval_abnormal": 148,
+  "eval_normal": 126,
+  "sole_signal_n": 40,
+  "train_n": 405,
+  "heldout": {
+    "rule": {
+      "heldout_acc": 0.693,
+      "heldout_recall": 0.432,
+      "sole_signal_recall": 0.0
+    },
+    "tfidf": {
+      "heldout_acc": 0.777,
+      "heldout_recall": 0.655,
+      "sole_signal_recall": 0.575
+    },
+    "transformer": {
+      "heldout_acc": 0.894,
+      "heldout_recall": 0.973,
+      "sole_signal_recall": 0.925
+    }
+  },
+  "in_distribution": {
+    "rule": {
+      "acc": 1.0,
+      "recall": 1.0,
+      "ood_acc": 0.55
+    },
+    "tfidf": {
+      "acc": 0.908,
+      "recall": 0.808,
+      "ood_acc": 0.75
+    },
+    "transformer": {
+      "acc": 0.992,
+      "recall": 0.981,
+      "ood_acc": 0.9
+    }
+  }
+}

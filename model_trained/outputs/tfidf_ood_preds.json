@@ -1,0 +1,104 @@
+{
+  "ood": [
+    {
+      "text": "Kedua paru bersih, jantung tidak membesar.",
+      "gold": "normal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Liver echotexture normal, no focal lesion.",
+      "gold": "normal",
+      "tfidf": "normal"
+    },
+    {
+      "text": "Vesica fellea tidak melebar, dinding tidak menebal.",
+      "gold": "normal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Foto thorax dalam batas normal.",
+      "gold": "normal",
+      "tfidf": "normal"
+    },
+    {
+      "text": "Ginjal kanan dan kiri ukuran serta echotextur normal.",
+      "gold": "normal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Cor tak membesar.",
+      "gold": "normal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Efusi pleura (-).",
+      "gold": "normal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Tampak massa pada caput pancreas.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Ground glass opacity pada lobus kanan atas.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Limfadenopati hilus bilateral.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Atelektasis pada paru kiri.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Spondylosis lumbalis dengan osteofit.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Kardiomegali dengan CTR meningkat.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Susp. malignancy paru, pro biopsi.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Emfisema subkutis regio thorax.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Hepatosplenomegaly.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Nephrolithiasis bilateral dengan hidronefrosis grade II.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Bronkiektasis pada lobus inferior.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Pembesaran kelenjar getah bening paratrakeal.",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    },
+    {
+      "text": "Cardiomegali (+).",
+      "gold": "abnormal",
+      "tfidf": "abnormal"
+    }
+  ]
+}

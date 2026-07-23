@@ -1,0 +1,22 @@
+{
+  "impressions": 679,
+  "distinct_texts": 607,
+  "normal_rate": 0.596,
+  "organs_tracked": 6,
+  "organ_mentions": {
+    "hepar": 325,
+    "pulmo": 314,
+    "ginjal": 295,
+    "vesica": 284,
+    "cor": 273,
+    "pleura": 230
+  },
+  "languages": {
+    "mixed": 184,
+    "other": 79,
+    "id": 335,
+    "en": 81
+  },
+  "test_accuracy": 1.0,
+  "organ_derived_overall_agreement": 1.0
+}

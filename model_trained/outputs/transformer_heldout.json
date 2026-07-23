@@ -1,0 +1,155 @@
+{
+  "model_name": "indobert-base-p1",
+  "heldout_acc": 0.894,
+  "heldout_recall": 0.973,
+  "sole_signal_recall": 0.925,
+  "sole_signal_n": 40,
+  "heldout_misses": [
+    {
+      "text": "Kesan: tidak tampak kardiomegali, no nephrolithiasis, tidak tampak infiltrat.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Liver size normal; no nephrolithiasis.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Hasil: no hepatomegaly, tidak tampak kardiomegali, vesica fellea tidak tampak kelainan, no pleural effusion.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "No nephrolithiasis; tidak tampak kardiomegali; liver size normal.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Hasil: CTR normal, tidak tampak batu empedu, no nephrolithiasis, pulmo dalam batas normal.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "USG: tidak tampak batu empedu; pulmo tidak tampak kelainan; no hepatomegaly.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Pulmo dalam batas normal. gallstones.",
+      "gold": "abnormal",
+      "pred": "normal"
+    },
+    {
+      "text": "Liver unremarkable; no nephrolithiasis; pulmo tidak tampak kelainan.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Foto thorax: no active lung lesion. no hepatomegaly. tidak tampak batu empedu.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Kesan: gallstones; ginjal dalam batas normal; no pleural effusion.",
+      "gold": "abnormal",
+      "pred": "normal"
+    },
+    {
+      "text": "USG: no nephrolithiasis. liver unremarkable.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "USG: tidak tampak kardiomegali, no nephrolithiasis, pulmo tidak tampak kelainan.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Kesan: sinus costophrenicus tajam; tidak tampak batu empedu; no nephrolithiasis.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "USG: vesica fellea tidak tampak kelainan, no nephrolithiasis, liver unremarkable.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "No pleural effusion; no nephrolithiasis; pulmo tidak tampak kelainan.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "USG: no pleural effusion, no nephrolithiasis, tidak tampak kardiomegali.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Kesan: hepar tidak membesar; tidak tampak batu empedu; no active lung lesion; no nephrolithiasis.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Foto thorax: no pleural effusion; no nephrolithiasis.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Hasil: CTR normal, pleural effusion bilateral, both kidneys normal.",
+      "gold": "abnormal",
+      "pred": "normal"
+    },
+    {
+      "text": "Hasil: no nephrolithiasis. gallbladder unremarkable. pulmo tidak tampak kelainan.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Tidak tampak kardiomegali. tidak tampak batu empedu. tidak tampak infiltrat.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "No pleural effusion, tidak tampak batu empedu, ginjal kanan dan kiri normal, no hepatomegaly.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Foto thorax: tidak tampak batu empedu. no pleural effusion. no nephrolithiasis. hepar tidak membesar.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "USG: liver unremarkable; cor tidak membesar; no nephrolithiasis.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Hasil: hepar normal; no nephrolithiasis.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Gallbladder unremarkable. pulmo tidak tampak kelainan. no nephrolithiasis. hepar tidak membesar.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Sinus costophrenicus tajam. no active lung lesion. no nephrolithiasis.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Kesan: no nephrolithiasis; heart size normal; no hepatomegaly.",
+      "gold": "normal",
+      "pred": "abnormal"
+    },
+    {
+      "text": "Kesan: heart size normal. pneumonia. tidak tampak batu empedu. hepar dalam batas normal.",
+      "gold": "abnormal",
+      "pred": "normal"
+    }
+  ],
+  "epochs": 5
+}

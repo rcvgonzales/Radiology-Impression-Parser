@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Radiology Impression Parser — Report</title>
+<style>
+  :root{
+    --bg:#0b0f17; --panel:#121826; --panel2:#0f1521; --ink:#e7ecf3; --mut:#9aa7bd;
+    --line:#23304a; --acc:#5b9dff; --acc2:#36d399; --warn:#f5b14c; --bad:#f87272;
+  }
+  @page{size:A4;margin:0}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:12px;line-height:1.5;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .page{width:210mm;min-height:296mm;padding:13mm 16mm 14mm;margin:0 auto;
+    background:var(--bg);page-break-after:always;position:relative}
+  .page:last-child{page-break-after:auto}
+  h1{font-size:30px;margin:0 0 4px;letter-spacing:-.5px}
+  h2{font-size:13px;margin:0;color:var(--acc);text-transform:uppercase;letter-spacing:2px}
+  h3{font-size:18px;margin:2px 0 8px;letter-spacing:-.3px}
+  p{margin:0 0 8px;color:#cdd6e6}
+  .mut{color:var(--mut)}
+  .sec{margin:0 0 10px}
+  .secnum{display:inline-block;font-size:11px;color:var(--mut);border:1px solid var(--line);
+    border-radius:6px;padding:2px 7px;margin-bottom:8px;letter-spacing:1px}
+  .tagline{color:var(--mut);font-size:15px;margin:0 0 14px}
+  .pills{display:flex;flex-wrap:wrap;gap:7px;margin:10px 0}
+  .pill{background:var(--panel);border:1px solid var(--line);border-radius:999px;
+    padding:4px 11px;font-size:11px;color:#cfe0ff}
+  .grid{display:grid;gap:10px}
+  .g4{grid-template-columns:repeat(4,1fr)} .g3{grid-template-columns:repeat(3,1fr)}
+  .g2{grid-template-columns:repeat(2,1fr)}
+  .card{background:linear-gradient(180deg,var(--panel),var(--panel2));
+    border:1px solid var(--line);border-radius:12px;padding:9px 12px}
+  .stat .v{font-size:24px;font-weight:700;letter-spacing:-.5px}
+  .stat .l{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.6px;margin-top:3px}
+  .stat .s{font-size:10px;color:var(--mut);margin-top:1px}
+  .accent .v{color:var(--acc2)}
+  .step{display:flex;gap:12px;align-items:flex-start;padding:5px 0;border-top:1px solid var(--line)}
+  .step:first-child{border-top:0}
+  .step .n{color:var(--acc);font-weight:700;font-size:13px;min-width:26px}
+  .step .t{font-weight:600;margin-bottom:2px}
+  .bars{margin-top:6px}
+  .bar{display:grid;grid-template-columns:112px 1fr 52px;align-items:center;gap:10px;margin:7px 0}
+  .bar .name{font-size:11px;color:#cfe0ff;text-align:right}
+  .track{background:#0c1220;border:1px solid var(--line);border-radius:7px;height:16px;overflow:hidden}
+  .fill{height:100%;border-radius:6px;background:linear-gradient(90deg,#3f6fd6,#5b9dff)}
+  .fill.g{background:linear-gradient(90deg,#2bbf86,#36d399)}
+  .fill.w{background:linear-gradient(90deg,#d6952f,#f5b14c)}
+  .fill.b{background:linear-gradient(90deg,#c0392b,#f87272)}
+  .bar .val{font-size:11px;color:var(--mut);text-align:left}
+  table{width:100%;border-collapse:collapse;margin-top:6px}
+  th,td{text-align:left;font-size:11px;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--mut);text-transform:uppercase;letter-spacing:.6px;font-size:10px}
+  code{background:#0c1220;border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:10.5px;color:#bcd3ff}
+  .note{background:#161033;border:1px solid #3a2f6b;border-radius:10px;padding:11px 13px;color:#e4dcff}
+  .note .t{color:var(--warn);font-weight:700;margin-bottom:3px}
+  .ins{padding:9px 0;border-top:1px solid var(--line)}
+  .ins:first-child{border-top:0}
+  .ins .t{font-weight:600;color:#fff;margin-bottom:2px}
+  .foot{position:absolute;bottom:8mm;left:16mm;right:16mm;display:flex;justify-content:space-between;
+    font-size:9.5px;color:#5d6c87;border-top:1px solid var(--line);padding-top:6px}
+  .disc{font-size:10px;color:var(--mut);border-left:2px solid var(--acc);padding:2px 0 2px 10px;margin:10px 0}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+</style>
+</head>
+<body>
+
+<!-- PAGE 1 -->
+<div class="page">
+  <h2>Dashlabs Data Science Portfolio · P8</h2>
+  <h1>Radiology Impression Parser</h1>
+  <p class="tagline">Parsing multilingual radiology impressions into structured organ-level findings.</p>
+  <div class="pills">
+    <span class="pill">Negation-aware Rules</span>
+    <span class="pill">Clinical NLP</span>
+    <span class="pill">TF-IDF + LogReg</span>
+    <span class="pill">Fine-tuned IndoBERT</span>
+  </div>
+  <div class="disc">Synthetic data. Every patient, result, and label is fabricated by the Dashlabs
+    generator — no real person or finding appears. The work demonstrates the <em>method</em>; results are illustrative.</div>
+
+  <div class="sec">
+    <div class="secnum">01 · BUSINESS PROBLEM</div>
+    <h3>Structure free-text impressions — and generalize honestly.</h3>
+    <p>Thirteen synthetic diagnostic-lab clients store <b>679 imaging impressions</b> (USG abdomen and chest
+      X-ray) as free text — Bahasa Indonesia mixed with Latin and English organ terms, labeled normal/abnormal via
+      <code>rad_label</code> (~60% normal). On this <em>closed</em> synthetic vocabulary every method looks
+      near-perfect — so the project measures the honest question: <b>generalization to a finding whose vocabulary
+      is unseen</b>, where a hand-written rule set and a trained model part ways.</p>
+    <div class="grid g4">
+      <div class="card stat"><div class="v">Multilingual</div><div class="l">Problem Type</div><div class="s">Clinical NLP</div></div>
+      <div class="card stat"><div class="v">3 methods</div><div class="l">Compared</div><div class="s">rules · TF-IDF · IndoBERT</div></div>
+      <div class="card stat accent"><div class="v">0 → 93%</div><div class="l">Unseen-finding recall</div><div class="s">rules → IndoBERT</div></div>
+      <div class="card stat"><div class="v">60%</div><div class="l">Normal Rate</div><div class="s">405 / 679</div></div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="secnum">02 · DATA SOURCES</div>
+    <h3>Impressions live in <code>word_value</code>.</h3>
+    <table>
+      <tr><th>Table</th><th>Role</th><th>Key columns</th></tr>
+      <tr><td><code>patient_service_results</code></td><td>PRIMARY</td>
+        <td><code>word_value</code> — free-text impression · <code>service_name</code> — Ultrasound / USG Abdomen / Rontgen Dada · <code>rad_label</code> — human ground truth</td></tr>
+      <tr><td><code>patient_services</code></td><td>context</td>
+        <td><code>service_name</code> · <code>status</code> · <code>created_at</code></td></tr>
+    </table>
+  </div>
+
+  <div class="sec">
+    <div class="secnum">03 · METHODOLOGY</div>
+    <h3>Rules built around negation — then stress-tested for generalization.</h3>
+    <div class="card">
+      <div class="step"><div class="n">01</div><div><div class="t">Corpus analysis</div>
+        <div class="mut">Catalog phrasings, cross-language synonyms, and negation forms (tidak tampak, no, unremarkable).</div></div></div>
+      <div class="step"><div class="n">02</div><div><div class="t">Normalize + clause / negation rules</div>
+        <div class="mut">Split into clauses; flag abnormal only on an un-negated finding cue (“abnormal wins”).</div></div></div>
+      <div class="step"><div class="n">03</div><div><div class="t">Train real models</div>
+        <div class="mut">Genuinely train TF-IDF + LogReg and fine-tune IndoBERT on the same leakage-free split (seed 42).</div></div></div>
+      <div class="step"><div class="n">04</div><div><div class="t">Vocabulary-held-out generalization test</div>
+        <div class="mut">Hold effusion + stones out of BOTH the rule vocabulary and the models' training data; score all three on the now-unseen cues.</div></div></div>
+    </div>
+  </div>
+
+  <div class="foot"><span>Radiology Impression Parser · synthetic data</span><span>Page 1 / 3</span></div>
+</div>
+
+<!-- PAGE 2 -->
+<div class="page">
+  <div class="sec">
+    <div class="secnum">04 · ANALYSIS &amp; RESULTS</div>
+    <h3>Structured findings extracted — and generalization measured honestly.</h3>
+    <p class="mut">Computed on the 679 labeled impressions. In-distribution every method saturates on the closed
+      synthetic vocabulary; the discriminating results are the two generalization tests below.</p>
+    <div class="grid g4">
+      <div class="card stat accent"><div class="v">0 → 93%</div><div class="l">Unseen-finding recall</div><div class="s">sole-signal: rules → IndoBERT</div></div>
+      <div class="card stat"><div class="v">~100%</div><div class="l">In-dist accuracy</div><div class="s">closed vocab (secondary)</div></div>
+      <div class="card stat"><div class="v">679</div><div class="l">Impressions</div><div class="s">607 distinct</div></div>
+      <div class="card stat"><div class="v">6</div><div class="l">Organs Tracked</div><div class="s">parsed</div></div>
+    </div>
+
+    <div class="two" style="margin-top:16px">
+      <div>
+        <div class="t" style="font-weight:600;margin-bottom:4px">Recall on truly-unseen findings (sole-signal held-out)</div>
+        <div class="bars">
+          <div class="bar"><div class="name">Rule</div><div class="track"><div class="fill b" style="width:1%"></div></div><div class="val">0%</div></div>
+          <div class="bar"><div class="name">TF-IDF+LogReg</div><div class="track"><div class="fill" style="width:58%"></div></div><div class="val">58%</div></div>
+          <div class="bar"><div class="name">IndoBERT</div><div class="track"><div class="fill g" style="width:93%"></div></div><div class="val">93%</div></div>
+        </div>
+        <div class="mut" style="font-size:10px;margin-top:2px">effusion + stones held out of vocabulary AND training (40 sole-signal abnormals). Rules can't match unseen cues; the transformer generalizes from context.</div>
+      </div>
+      <div>
+        <div class="t" style="font-weight:600;margin-bottom:4px">Generalization to novel phrasings — OOD accuracy</div>
+        <div class="bars">
+          <div class="bar"><div class="name">Rule</div><div class="track"><div class="fill w" style="width:55%"></div></div><div class="val">55%</div></div>
+          <div class="bar"><div class="name">TF-IDF+LogReg</div><div class="track"><div class="fill" style="width:75%"></div></div><div class="val">75%</div></div>
+          <div class="bar"><div class="name">IndoBERT</div><div class="track"><div class="fill g" style="width:90%"></div></div><div class="val">90%</div></div>
+        </div>
+        <div class="mut" style="font-size:10px;margin-top:2px">20 hand-written impressions whose vocabulary sits outside the corpus — the harder, complementary test.</div>
+      </div>
+    </div>
+
+    <div style="margin-top:14px">
+      <div class="t" style="font-weight:600;margin-bottom:4px">Organ mentions across impressions</div>
+      <div class="bars">
+        <div class="bar"><div class="name">hepar</div><div class="track"><div class="fill" style="width:100%"></div></div><div class="val">325</div></div>
+        <div class="bar"><div class="name">pulmo</div><div class="track"><div class="fill" style="width:96.6%"></div></div><div class="val">314</div></div>
+        <div class="bar"><div class="name">ginjal</div><div class="track"><div class="fill" style="width:90.8%"></div></div><div class="val">295</div></div>
+        <div class="bar"><div class="name">vesica</div><div class="track"><div class="fill" style="width:87.4%"></div></div><div class="val">284</div></div>
+        <div class="bar"><div class="name">cor</div><div class="track"><div class="fill" style="width:84.0%"></div></div><div class="val">273</div></div>
+        <div class="bar"><div class="name">pleura</div><div class="track"><div class="fill" style="width:70.8%"></div></div><div class="val">230</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">
+    <div class="secnum">05 · INSIGHTS</div>
+    <div class="ins"><div class="t">Rules can't generalize to unseen vocabulary — learned models can</div><div class="mut">Hold effusion + stones out of everything and the rule system scores <b>0%</b> recall where an unseen cue is the only signal — it cannot match a word it has never seen. TF-IDF recovers 58% from context; the fine-tuned IndoBERT reaches <b>93%</b>. That contrast, not the 100%, is the story.</div></div>
+    <div class="ins"><div class="t">Negation is the biggest lever (in-distribution)</div><div class="mut">A naive “mentions <em>normal</em>” heuristic scored 63.8% and missed ~81% of abnormals — “cor membesar” sits beside the word “normal”. Clause-level negation is what lifts the rules to 100% on the closed vocabulary.</div></div>
+    <div class="ins"><div class="t">Synonyms bridge languages</div><div class="mut">One organ, many surface forms — gallbladder / vesica fellea / batu empedu; ginjal / kidney / renal — handled by a synonym map so the same rules span Bahasa, Latin, and English in one sentence.</div></div>
+    <div class="ins"><div class="t">Liver and lungs lead mentions</div><div class="mut">Hepar (325) and pulmo (314) are named most often — consistent with abdominal USG plus chest X-ray.</div></div>
+  </div>
+
+  <div class="foot"><span>Radiology Impression Parser · synthetic data</span><span>Page 2 / 3</span></div>
+</div>
+
+<!-- PAGE 3 -->
+<div class="page">
+  <div class="sec">
+    <div class="secnum">VALIDATION · HONESTY</div>
+    <h3>Is the 100% too good to be true?</h3>
+    <p class="mut">Yes — it is correct, but only on a closed vocabulary. Here is the honest generalization number, measured.</p>
+  </div>
+
+  <div class="note">
+    <div class="t">Reading note — the 100% is on a closed vocabulary</div>
+    The data is synthetic from a fixed phrase set, so the held-out test shares its vocabulary with training. This is
+    <b>not</b> classic overfitting (no train/test gap; the rules have no learned weights to memorize) — its only blind
+    spot is an <b>unseen finding term</b>. To measure that blind spot fairly, two whole finding families —
+    <b>effusion + stones</b> (10 cues) — are removed from <b>both</b> the rule vocabulary <b>and</b> the trained models'
+    data, then all three are scored on the 274 impressions that use them (40 where the unseen cue is the <em>only</em> signal).
+  </div>
+
+  <div class="sec" style="margin-top:14px">
+    <div class="t" style="font-weight:600;margin-bottom:4px">Recall on sole-signal unseen findings — the honest generalization number</div>
+    <div class="bars">
+      <div class="bar"><div class="name">Rule</div><div class="track"><div class="fill b" style="width:1%"></div></div><div class="val">0%</div></div>
+      <div class="bar"><div class="name">TF-IDF+LogReg</div><div class="track"><div class="fill" style="width:58%"></div></div><div class="val">58%</div></div>
+      <div class="bar"><div class="name">IndoBERT</div><div class="track"><div class="fill g" style="width:93%"></div></div><div class="val">93%</div></div>
+    </div>
+    <p class="mut" style="margin-top:6px">The rule system catches <b>none</b> of these — by construction it can only match cues it was written for.
+      TF-IDF recovers 58% from surrounding context, and the fine-tuned IndoBERT <b>93%</b>. Note that <em>overall
+      accuracy</em> barely moves when one finding is unseen (such impressions are rare in the set) — which is exactly
+      why accuracy hides this failure and recall on the unseen finding is the number to report.</p>
+  </div>
+
+  <div class="sec" style="margin-top:8px">
+    <div class="t" style="font-weight:600;margin-bottom:4px">Three methods, two axes</div>
+    <table>
+      <tr><th>Model</th><th>In-dist acc</th><th>OOD acc</th><th>Held-out acc</th><th>Sole-signal recall</th></tr>
+      <tr><td>Rule (regex + negation)</td><td>100%</td><td>55%</td><td>69%</td><td><b>0%</b></td></tr>
+      <tr><td>TF-IDF + LogReg</td><td>91%</td><td>75%</td><td>78%</td><td><b>58%</b></td></tr>
+      <tr><td>IndoBERT (fine-tuned)</td><td>99%</td><td>90%</td><td>89%</td><td><b>93%</b></td></tr>
+    </table>
+    <p class="mut" style="margin-top:4px">Rules win in-distribution; learned models win on unseen findings — the tradeoff, made explicit.</p>
+  </div>
+
+  <div class="sec" style="margin-top:14px">
+    <div class="secnum">06 · PRODUCTION PATH</div>
+    <div class="grid g2">
+      <div class="card"><div class="t" style="font-weight:600">Widen the held-out sweep</div><div class="mut">More finding families and an XLM-R comparison to map where the generalization gap opens.</div></div>
+      <div class="card"><div class="t" style="font-weight:600">Radiologist-labeled real reports</div><div class="mut">The only fully honest generalization figure needs a sample of real, human-labeled impressions.</div></div>
+      <div class="card"><div class="t" style="font-weight:600">Per-organ gold labels</div><div class="mut">Hand-label organ findings to score the structured extraction directly, not just the overall flag.</div></div>
+      <div class="card"><div class="t" style="font-weight:600">PACS integration &amp; trends</div><div class="mut">Link findings to images; track organ findings per patient across visits.</div></div>
+    </div>
+  </div>
+
+  <div class="foot"><span>Reginald Christian Gonzales · Dashlabs internship</span><span>Page 3 / 3</span></div>
+</div>
+
+</body>
+</html>
